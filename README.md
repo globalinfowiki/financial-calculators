@@ -150,5 +150,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **National Scholarship Portal NSP 2026 Apply Online — Documents Eligibility & Renewal Process** | [Open Tool](https://www.globalinfowiki.in/2026/08/national-scholarship-portal-nsp-2026.html) | Complete guide to apply for Central Government scholarships on NSP (scholarships.gov.in) for SC/ST/OBC/Minority/PWD students with documents and renewal process. |
 
+| **PM Yashasvi Scholarship 2026 — OBC EBC DNT Students Eligibility Documents & Apply Process** | [Open Tool](https://www.globalinfowiki.in/2026/08/pm-yashasvi-scholarship-2026-obc-ebc.html) | Complete guide on PM Young Achievers Scholarship Award Scheme for Vibrant India (YASHASVI) for OBC, EBC, DNT students with eligibility, exam, and NSP application process. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
