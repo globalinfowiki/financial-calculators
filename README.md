@@ -174,5 +174,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Power of Attorney POA Kaise Banwayein — Documents Types General Special India Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/power-of-attorney-poa-kaise-banwayein.html) | Complete guide on General Power of Attorney (GPA) and Special Power of Attorney (SPA) types, documents required, stamp duty, and registration process in India. |
 
+| **Stamp Duty Refund Kaise Milta Hai — Cancelled Property Deal Refund Process State-wise India** | [Open Tool](https://www.globalinfowiki.in/2026/08/stamp-duty-refund-kaise-milta-hai.html) | How to claim stamp duty refund on cancelled property sale deed in India — eligibility, refund percentage, state-wise online application process and timeline. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
