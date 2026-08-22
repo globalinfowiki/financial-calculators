@@ -96,5 +96,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Home Loan Balance Transfer Calculator — Calculate Interest Savings on Loan Refinancing** | [Open Tool](https://www.globalinfowiki.in/2026/08/home-loan-balance-transfer-calculator.html) | Calculate how much net money you save by switching your existing home loan to a lower interest rate bank after deducting processing and legal fees. |
 
+| **Marriage Certificate Documents Required & Registration Process in India — Complete Step-by-Step Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/marriage-certificate-documents-required.html) | Complete list of documents required for Marriage Certificate in India under Hindu Marriage Act and Special Marriage Act, with online portal links and Sub-Registrar office procedure. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
