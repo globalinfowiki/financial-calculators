@@ -80,5 +80,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Health Insurance Premium & Section 80D Tax Deduction Calculator 2025-26** | [Open Tool](https://www.globalinfowiki.in/2026/08/health-insurance-premium-section-80d.html) | Calculate family health insurance premium estimate and Section 80D tax deductions up to Rs. 1,00,000 for self and parents. |
 
+| **PM Awas Yojana (PMAY) Subsidy Calculator — Calculate Home Loan Interest Subsidy up to Rs. 2.67 Lakhs** | [Open Tool](https://www.globalinfowiki.in/2026/08/pm-awas-yojana-pmay-subsidy-calculator.html) | Calculate your Pradhan Mantri Awas Yojana (PMAY 2.0) credit-linked interest subsidy up to Rs. 2.67 Lakhs on home loans. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
