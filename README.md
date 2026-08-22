@@ -92,5 +92,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Term Insurance + SIP vs Traditional LIC Endowment Plan Calculator — Compare BTIR Strategy Returns** | [Open Tool](https://www.globalinfowiki.in/2026/08/term-insurance-sip-vs-traditional-lic.html) | Compare the Buy Term Invest the Rest (BTIR) strategy vs traditional endowment insurance policies and see why Term + Mutual Fund SIP creates 5x more wealth. |
 
+| **Base Health Insurance vs 1 Crore Super Top-Up Calculator — Save 60% on Health Cover Premiums** | [Open Tool](https://www.globalinfowiki.in/2026/08/base-health-insurance-vs-1-crore-super.html) | Calculate how combining a Rs. 5 Lakh base health insurance policy with a Rs. 95 Lakh Super Top-Up plan saves up to 60% annual premium compared to a standalone 1 Crore cover. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
