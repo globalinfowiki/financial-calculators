@@ -90,5 +90,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Lifetime Free (LTF) vs Paid Credit Card ROI Calculator — Is the Annual Fee Worth It?** | [Open Tool](https://www.globalinfowiki.in/2026/08/lifetime-free-ltf-vs-paid-credit-card.html) | Calculate whether paying an annual credit card fee (Rs. 1,000 to Rs. 10,000) provides enough bonus rewards, airport lounge access, and milestone benefits. |
 
+| **Term Insurance + SIP vs Traditional LIC Endowment Plan Calculator — Compare BTIR Strategy Returns** | [Open Tool](https://www.globalinfowiki.in/2026/08/term-insurance-sip-vs-traditional-lic.html) | Compare the Buy Term Invest the Rest (BTIR) strategy vs traditional endowment insurance policies and see why Term + Mutual Fund SIP creates 5x more wealth. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
