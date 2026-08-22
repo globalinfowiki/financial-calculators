@@ -154,5 +154,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Vidya Lakshmi Education Loan Portal — Apply Online All Banks Documents & Interest Subsidy** | [Open Tool](https://www.globalinfowiki.in/2026/08/vidya-lakshmi-education-loan-portal.html) | How to apply for education loan from multiple banks on Vidya Lakshmi Portal (vidyalakshmi.co.in) with documents required, interest subsidy schemes, and repayment guide. |
 
+| **Post Matric Scholarship SC ST Apply 2026 — State Portal Documents & Payment Status Check** | [Open Tool](https://www.globalinfowiki.in/2026/08/post-matric-scholarship-sc-st-apply.html) | Complete guide to apply for Post Matric Scholarship for SC and ST students in India with state portal links, income limit, documents required, and bank payment status. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
