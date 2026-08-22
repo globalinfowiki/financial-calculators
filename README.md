@@ -140,5 +140,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Consumer Forum Complaint Online Kaise Kare — NCDRC SCDRC Process Fee & Documents India** | [Open Tool](https://www.globalinfowiki.in/2026/08/consumer-forum-complaint-online-kaise.html) | Step-by-step guide to file consumer complaint online at EDAAKHIL portal against product defect, service deficiency, unfair trade practices with fees and jurisdiction guide. |
 
+| **FIR Copy Kaise Nikale Online — State Police Portal se FIR Download India All States** | [Open Tool](https://www.globalinfowiki.in/2026/08/fir-copy-kaise-nikale-online-state.html) | How to download or get FIR copy online from state police portals in India — Delhi, UP, Maharashtra, Karnataka, Rajasthan — and how to file Zero FIR anywhere. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
