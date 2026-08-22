@@ -156,5 +156,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Post Matric Scholarship SC ST Apply 2026 — State Portal Documents & Payment Status Check** | [Open Tool](https://www.globalinfowiki.in/2026/08/post-matric-scholarship-sc-st-apply.html) | Complete guide to apply for Post Matric Scholarship for SC and ST students in India with state portal links, income limit, documents required, and bank payment status. |
 
+| **AICTE Pragati Scholarship 2026 — Girl Students Technical College Complete Guide & Apply** | [Open Tool](https://www.globalinfowiki.in/2026/08/aicte-pragati-scholarship-2026-girl.html) | Complete guide on AICTE Pragati Scholarship for girl students in technical colleges (diploma/degree) with eligibility, Rs.50000 per year amount, documents, and NSP apply process. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
