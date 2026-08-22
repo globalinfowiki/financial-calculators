@@ -162,5 +162,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Ayushman Bharat PMJAY Card Apply Kaise Kare — Eligibility Check Documents & Beneficiary List 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/ayushman-bharat-pmjay-card-apply-kaise.html) | Complete guide to check eligibility, download Ayushman Bharat PMJAY Golden Card, and avail Rs.5 Lakh free health insurance at empanelled hospitals across India. |
 
+| **PM Kisan Samman Nidhi Registration eKYC Process — Documents Check Status & Installment Date 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/pm-kisan-samman-nidhi-registration-ekyc.html) | Complete guide for PM Kisan Samman Nidhi new registration, eKYC mandatory process, Rs.6000 annual installment dates, and status check on pmkisan.gov.in. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
