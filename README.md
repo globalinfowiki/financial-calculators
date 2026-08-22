@@ -112,5 +112,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Property Mutation Dakhil Kharij Process India — Documents Required for Name Transfer After Registry** | [Open Tool](https://www.globalinfowiki.in/2026/08/property-mutation-dakhil-kharij-process.html) | How to do property mutation (Dakhil Kharij / Khata Transfer / Naam Chadhao) in Revenue Department and Municipal Corporation after property purchase or inheritance in India. |
 
+| **ATM Card Block Kaise Kare SBI HDFC PNB ICICI — Emergency Card Block All Methods** | [Open Tool](https://www.globalinfowiki.in/2026/08/atm-card-block-kaise-kare-sbi-hdfc-pnb.html) | How to block ATM/Debit card immediately via missed call, net banking, mobile app, and toll-free helpline for SBI, HDFC, PNB, ICICI, and Axis Bank. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
