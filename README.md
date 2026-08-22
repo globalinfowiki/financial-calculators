@@ -106,5 +106,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Income Certificate (Aay Praman Patra) Documents Required — Online e-District Apply Process India** | [Open Tool](https://www.globalinfowiki.in/2026/08/income-certificate-aay-praman-patra.html) | Complete documents required for Income Certificate (Aay Praman Patra) in India with state-wise e-District portal links and Tehsildar office procedure. |
 
+| **Caste Certificate SC ST OBC EWS Documents Required — Complete Application Process India 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/caste-certificate-sc-st-obc-ews.html) | Step-by-step guide for obtaining SC/ST/OBC/EWS caste certificate in India with required documents, hereditary proofs, and Tehsildar SDM office process. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
