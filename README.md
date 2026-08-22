@@ -86,5 +86,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Cashback vs Travel Rewards Credit Card Calculator — Find the Best Card for Your Spending Habits** | [Open Tool](https://www.globalinfowiki.in/2026/08/cashback-vs-travel-rewards-credit-card.html) | Compare annual net savings between cashback credit cards and travel reward cards based on your monthly online shopping, grocery, and travel expenses. |
 
+| **Credit Card Minimum Due vs Full Payment Calculator — Expose the 42% APR Debt Trap** | [Open Tool](https://www.globalinfowiki.in/2026/08/credit-card-minimum-due-vs-full-payment.html) | See how paying only the minimum amount due on your credit card compounds at 42% annual interest and traps you in multi-year debt. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
