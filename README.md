@@ -136,5 +136,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Vehicle Scrap Policy India 2024 — Old Vehicle Certificate of Deposit Benefits & Process** | [Open Tool](https://www.globalinfowiki.in/2026/08/vehicle-scrap-policy-india-2024-old.html) | Complete guide on India vehicle scrap policy 2024 — which vehicles must be scrapped, Certificate of Deposit benefits (5% discount on new vehicle), registered scrapping centres. |
 
+| **RTI Application Kaise File Karein — Right to Information Online Offline Complete Process India** | [Open Tool](https://www.globalinfowiki.in/2026/08/rti-application-kaise-file-karein-right.html) | Complete step-by-step guide to file RTI application online via RTI Online Portal and offline with postal order, fees, first appeal process and tips for India. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
