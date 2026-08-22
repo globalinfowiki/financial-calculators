@@ -110,5 +110,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Legal Heir Certificate Documents Required India — Property & Bank Claim Process (Warisan Praman Patra)** | [Open Tool](https://www.globalinfowiki.in/2026/08/legal-heir-certificate-documents.html) | Complete guide on how to obtain a Legal Heir Certificate in India for bank account transfer, property claim, and pension claim after death of a family member. |
 
+| **Property Mutation Dakhil Kharij Process India — Documents Required for Name Transfer After Registry** | [Open Tool](https://www.globalinfowiki.in/2026/08/property-mutation-dakhil-kharij-process.html) | How to do property mutation (Dakhil Kharij / Khata Transfer / Naam Chadhao) in Revenue Department and Municipal Corporation after property purchase or inheritance in India. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
