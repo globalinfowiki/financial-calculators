@@ -134,5 +134,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Parivahan Portal Sarathi All Services Guide — DL RC Fancy Number NOC PUCC Online India** | [Open Tool](https://www.globalinfowiki.in/2026/08/parivahan-portal-sarathi-all-services.html) | Complete guide to all services available on parivahan.gov.in and sarathi.parivahan.gov.in for driving licence, RC, vehicle-related services online in India. |
 
+| **Vehicle Scrap Policy India 2024 — Old Vehicle Certificate of Deposit Benefits & Process** | [Open Tool](https://www.globalinfowiki.in/2026/08/vehicle-scrap-policy-india-2024-old.html) | Complete guide on India vehicle scrap policy 2024 — which vehicles must be scrapped, Certificate of Deposit benefits (5% discount on new vehicle), registered scrapping centres. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
