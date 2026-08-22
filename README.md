@@ -88,5 +88,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Credit Card Minimum Due vs Full Payment Calculator — Expose the 42% APR Debt Trap** | [Open Tool](https://www.globalinfowiki.in/2026/08/credit-card-minimum-due-vs-full-payment.html) | See how paying only the minimum amount due on your credit card compounds at 42% annual interest and traps you in multi-year debt. |
 
+| **Lifetime Free (LTF) vs Paid Credit Card ROI Calculator — Is the Annual Fee Worth It?** | [Open Tool](https://www.globalinfowiki.in/2026/08/lifetime-free-ltf-vs-paid-credit-card.html) | Calculate whether paying an annual credit card fee (Rs. 1,000 to Rs. 10,000) provides enough bonus rewards, airport lounge access, and milestone benefits. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
