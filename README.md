@@ -148,5 +148,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Voter ID Card Correction Apply Online — Name Date of Birth Address Change NVSP Portal India** | [Open Tool](https://www.globalinfowiki.in/2026/08/voter-id-card-correction-apply-online.html) | How to apply for Voter ID card correction (name, date of birth, address, photo), new voter registration, and status check on voters.eci.gov.in NVSP portal India. |
 
+| **National Scholarship Portal NSP 2026 Apply Online — Documents Eligibility & Renewal Process** | [Open Tool](https://www.globalinfowiki.in/2026/08/national-scholarship-portal-nsp-2026.html) | Complete guide to apply for Central Government scholarships on NSP (scholarships.gov.in) for SC/ST/OBC/Minority/PWD students with documents and renewal process. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
