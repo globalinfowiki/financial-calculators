@@ -126,5 +126,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Driving Licence DL Documents Required India 2026 — Learner Licence to Permanent DL Complete Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/driving-licence-dl-documents-required.html) | Complete documents required for Learner Licence and Permanent Driving Licence in India with Parivahan portal online application process, fees, and test tips. |
 
+| **RC Transfer Documents After Car Sale Purchase India — Vehicle Ownership Transfer RTO Process** | [Open Tool](https://www.globalinfowiki.in/2026/08/rc-transfer-documents-after-car-sale.html) | Complete documents and step-by-step process for transferring vehicle RC (Registration Certificate) ownership after buying or selling a used car/bike in India. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
