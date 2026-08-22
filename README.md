@@ -160,5 +160,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Birth Certificate Apply Kaise Kare — Online Offline Process Documents India 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/birth-certificate-apply-kaise-kare.html) | Complete guide on how to apply for birth certificate online and offline in India for newborn and late registration (after 1 year) with municipality/gram panchayat process. |
 
+| **Ayushman Bharat PMJAY Card Apply Kaise Kare — Eligibility Check Documents & Beneficiary List 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/ayushman-bharat-pmjay-card-apply-kaise.html) | Complete guide to check eligibility, download Ayushman Bharat PMJAY Golden Card, and avail Rs.5 Lakh free health insurance at empanelled hospitals across India. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
