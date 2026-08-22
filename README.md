@@ -114,5 +114,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **ATM Card Block Kaise Kare SBI HDFC PNB ICICI — Emergency Card Block All Methods** | [Open Tool](https://www.globalinfowiki.in/2026/08/atm-card-block-kaise-kare-sbi-hdfc-pnb.html) | How to block ATM/Debit card immediately via missed call, net banking, mobile app, and toll-free helpline for SBI, HDFC, PNB, ICICI, and Axis Bank. |
 
+| **Net Banking Password Reset Kaise Kare — SBI HDFC ICICI PNB Axis All Banks Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/net-banking-password-reset-kaise-kare.html) | Step-by-step guide to reset forgotten net banking password for SBI, HDFC, ICICI, PNB, and Axis Bank online without visiting branch. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
