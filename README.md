@@ -144,5 +144,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Cyber Crime Complaint Online Kaise Kare — cybercrime.gov.in Portal Guide India 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/cyber-crime-complaint-online-kaise-kare.html) | How to file cyber crime complaint online at cybercrime.gov.in for online fraud, UPI scam, social media harassment, ransomware, OTP theft in India with documents required. |
 
+| **Police Verification Certificate Documents India — Character Certificate Kaise Banwayein** | [Open Tool](https://www.globalinfowiki.in/2026/08/police-verification-certificate.html) | Complete guide on Police Verification Certificate and Character Certificate process in India for passport, job, visa, tenant verification with state-wise online portals. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
