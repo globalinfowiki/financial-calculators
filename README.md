@@ -94,5 +94,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Base Health Insurance vs 1 Crore Super Top-Up Calculator — Save 60% on Health Cover Premiums** | [Open Tool](https://www.globalinfowiki.in/2026/08/base-health-insurance-vs-1-crore-super.html) | Calculate how combining a Rs. 5 Lakh base health insurance policy with a Rs. 95 Lakh Super Top-Up plan saves up to 60% annual premium compared to a standalone 1 Crore cover. |
 
+| **Home Loan Balance Transfer Calculator — Calculate Interest Savings on Loan Refinancing** | [Open Tool](https://www.globalinfowiki.in/2026/08/home-loan-balance-transfer-calculator.html) | Calculate how much net money you save by switching your existing home loan to a lower interest rate bank after deducting processing and legal fees. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
