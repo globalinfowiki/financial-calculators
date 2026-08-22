@@ -166,5 +166,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **ESI Card Apply Online — ESIC Benefits Registration Documents & Hospital List India** | [Open Tool](https://www.globalinfowiki.in/2026/08/esi-card-apply-online-esic-benefits.html) | Complete guide to ESIC (Employees State Insurance Corporation) card registration, benefits (medical, maternity, disability, death), and list of ESIC hospitals in India. |
 
+| **Jan Aushadhi Store Kahan Hai — Cheap Generic Medicine Locator India Pradhan Mantri Bhartiya Janaushadhi Pariyojana** | [Open Tool](https://www.globalinfowiki.in/2026/08/jan-aushadhi-store-kahan-hai-cheap.html) | How to find nearest Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP) Jan Aushadhi store for cheap generic medicines and list of 1800+ medicines available at 90% cheaper rates. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
