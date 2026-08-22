@@ -82,5 +82,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **PM Awas Yojana (PMAY) Subsidy Calculator — Calculate Home Loan Interest Subsidy up to Rs. 2.67 Lakhs** | [Open Tool](https://www.globalinfowiki.in/2026/08/pm-awas-yojana-pmay-subsidy-calculator.html) | Calculate your Pradhan Mantri Awas Yojana (PMAY 2.0) credit-linked interest subsidy up to Rs. 2.67 Lakhs on home loans. |
 
+| **Credit Card Reward Points to Cash Value Calculator — Convert HDFC, SBI, Axis & ICICI Points to Rupees** | [Open Tool](https://www.globalinfowiki.in/2026/08/credit-card-reward-points-to-cash-value.html) | Convert your credit card reward points from HDFC, SBI Card, Axis Bank, and ICICI into real Rupees cash value and find the best redemption option. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
