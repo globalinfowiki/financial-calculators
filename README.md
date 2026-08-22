@@ -122,5 +122,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Cheque Bounce Kya Hota Hai — Legal Notice Process Penalty & Court Case Section 138 NI Act** | [Open Tool](https://www.globalinfowiki.in/2026/08/cheque-bounce-kya-hota-hai-legal-notice.html) | Complete guide on cheque bounce under Section 138 of Negotiable Instruments Act — penalty, legal notice period, court case process, and defense options in India. |
 
+| **Fixed Deposit FD Premature Withdrawal Penalty Calculator — SBI HDFC ICICI All Banks** | [Open Tool](https://www.globalinfowiki.in/2026/08/fixed-deposit-fd-premature-withdrawal.html) | Calculate Fixed Deposit premature withdrawal penalty, actual interest earned, and maturity amount for SBI, HDFC, ICICI, PNB with real-time interactive calculator. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
