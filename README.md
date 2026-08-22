@@ -108,5 +108,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Caste Certificate SC ST OBC EWS Documents Required — Complete Application Process India 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/caste-certificate-sc-st-obc-ews.html) | Step-by-step guide for obtaining SC/ST/OBC/EWS caste certificate in India with required documents, hereditary proofs, and Tehsildar SDM office process. |
 
+| **Legal Heir Certificate Documents Required India — Property & Bank Claim Process (Warisan Praman Patra)** | [Open Tool](https://www.globalinfowiki.in/2026/08/legal-heir-certificate-documents.html) | Complete guide on how to obtain a Legal Heir Certificate in India for bank account transfer, property claim, and pension claim after death of a family member. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
