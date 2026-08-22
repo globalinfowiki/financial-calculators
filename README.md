@@ -152,5 +152,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **PM Yashasvi Scholarship 2026 — OBC EBC DNT Students Eligibility Documents & Apply Process** | [Open Tool](https://www.globalinfowiki.in/2026/08/pm-yashasvi-scholarship-2026-obc-ebc.html) | Complete guide on PM Young Achievers Scholarship Award Scheme for Vibrant India (YASHASVI) for OBC, EBC, DNT students with eligibility, exam, and NSP application process. |
 
+| **Vidya Lakshmi Education Loan Portal — Apply Online All Banks Documents & Interest Subsidy** | [Open Tool](https://www.globalinfowiki.in/2026/08/vidya-lakshmi-education-loan-portal.html) | How to apply for education loan from multiple banks on Vidya Lakshmi Portal (vidyalakshmi.co.in) with documents required, interest subsidy schemes, and repayment guide. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
