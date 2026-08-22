@@ -164,5 +164,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **PM Kisan Samman Nidhi Registration eKYC Process — Documents Check Status & Installment Date 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/pm-kisan-samman-nidhi-registration-ekyc.html) | Complete guide for PM Kisan Samman Nidhi new registration, eKYC mandatory process, Rs.6000 annual installment dates, and status check on pmkisan.gov.in. |
 
+| **ESI Card Apply Online — ESIC Benefits Registration Documents & Hospital List India** | [Open Tool](https://www.globalinfowiki.in/2026/08/esi-card-apply-online-esic-benefits.html) | Complete guide to ESIC (Employees State Insurance Corporation) card registration, benefits (medical, maternity, disability, death), and list of ESIC hospitals in India. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
