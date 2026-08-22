@@ -146,5 +146,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Police Verification Certificate Documents India — Character Certificate Kaise Banwayein** | [Open Tool](https://www.globalinfowiki.in/2026/08/police-verification-certificate.html) | Complete guide on Police Verification Certificate and Character Certificate process in India for passport, job, visa, tenant verification with state-wise online portals. |
 
+| **Voter ID Card Correction Apply Online — Name Date of Birth Address Change NVSP Portal India** | [Open Tool](https://www.globalinfowiki.in/2026/08/voter-id-card-correction-apply-online.html) | How to apply for Voter ID card correction (name, date of birth, address, photo), new voter registration, and status check on voters.eci.gov.in NVSP portal India. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
