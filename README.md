@@ -138,5 +138,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **RTI Application Kaise File Karein — Right to Information Online Offline Complete Process India** | [Open Tool](https://www.globalinfowiki.in/2026/08/rti-application-kaise-file-karein-right.html) | Complete step-by-step guide to file RTI application online via RTI Online Portal and offline with postal order, fees, first appeal process and tips for India. |
 
+| **Consumer Forum Complaint Online Kaise Kare — NCDRC SCDRC Process Fee & Documents India** | [Open Tool](https://www.globalinfowiki.in/2026/08/consumer-forum-complaint-online-kaise.html) | Step-by-step guide to file consumer complaint online at EDAAKHIL portal against product defect, service deficiency, unfair trade practices with fees and jurisdiction guide. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
