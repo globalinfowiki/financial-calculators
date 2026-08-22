@@ -176,5 +176,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Stamp Duty Refund Kaise Milta Hai — Cancelled Property Deal Refund Process State-wise India** | [Open Tool](https://www.globalinfowiki.in/2026/08/stamp-duty-refund-kaise-milta-hai.html) | How to claim stamp duty refund on cancelled property sale deed in India — eligibility, refund percentage, state-wise online application process and timeline. |
 
+| **Rent Agreement vs Lease Agreement Difference India — 11 Month vs Long Term Notarization Rules** | [Open Tool](https://www.globalinfowiki.in/2026/08/rent-agreement-vs-lease-agreement.html) | Key differences between 11-month rent agreement and long-term lease deed in India — stamp duty, registration compulsion, tenant rights, and landlord protection explained. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
