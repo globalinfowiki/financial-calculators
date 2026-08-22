@@ -98,5 +98,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Marriage Certificate Documents Required & Registration Process in India — Complete Step-by-Step Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/marriage-certificate-documents-required.html) | Complete list of documents required for Marriage Certificate in India under Hindu Marriage Act and Special Marriage Act, with online portal links and Sub-Registrar office procedure. |
 
+| **Indian Passport Application Documents Required 2026 — Fresh & Renewal Checklist with PSK Rules** | [Open Tool](https://www.globalinfowiki.in/2026/08/indian-passport-application-documents.html) | Complete document checklist for Indian passport application (Fresh, Renewal, Tatkaal, Minor) with non-ECR proof rules and Passport Seva Kendra procedure. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
