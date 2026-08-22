@@ -128,5 +128,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **RC Transfer Documents After Car Sale Purchase India — Vehicle Ownership Transfer RTO Process** | [Open Tool](https://www.globalinfowiki.in/2026/08/rc-transfer-documents-after-car-sale.html) | Complete documents and step-by-step process for transferring vehicle RC (Registration Certificate) ownership after buying or selling a used car/bike in India. |
 
+| **Online Challan Pay Kaise Kare — Parivahan eChallan Status Check & Payment All India** | [Open Tool](https://www.globalinfowiki.in/2026/08/online-challan-pay-kaise-kare-parivahan.html) | How to check and pay traffic challan online in India via echallan.parivahan.gov.in, virtual court, and state traffic police portals for all states. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
