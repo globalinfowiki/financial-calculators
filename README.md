@@ -104,5 +104,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Domicile Certificate Documents Required & Application Process — State-Wise Resident Certificate Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/domicile-certificate-documents-required.html) | Complete documents required for Domicile / Permanent Residence Certificate (PRC) in India across states for government job quotas, college admissions, and scholarships. |
 
+| **Income Certificate (Aay Praman Patra) Documents Required — Online e-District Apply Process India** | [Open Tool](https://www.globalinfowiki.in/2026/08/income-certificate-aay-praman-patra.html) | Complete documents required for Income Certificate (Aay Praman Patra) in India with state-wise e-District portal links and Tehsildar office procedure. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
