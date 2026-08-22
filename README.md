@@ -172,5 +172,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **RERA Complaint Kaise File Kare — Builder Against Complaint Process MahaRERA UP RERA Haryana** | [Open Tool](https://www.globalinfowiki.in/2026/08/rera-complaint-kaise-file-kare-builder.html) | How to file RERA complaint against builder for delayed possession, poor construction quality, extra charges on state RERA portals with documents, fees, and process in India. |
 
+| **Power of Attorney POA Kaise Banwayein — Documents Types General Special India Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/power-of-attorney-poa-kaise-banwayein.html) | Complete guide on General Power of Attorney (GPA) and Special Power of Attorney (SPA) types, documents required, stamp duty, and registration process in India. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
