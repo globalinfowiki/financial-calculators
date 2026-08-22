@@ -118,5 +118,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **UPI Transaction Failed Paise Wapas Kaise Aate Hain — Refund Process & Timeline All Banks** | [Open Tool](https://www.globalinfowiki.in/2026/08/upi-transaction-failed-paise-wapas.html) | Complete guide on what to do when UPI payment fails but money is debited. Automatic refund timeline, manual complaint process for GPay, PhonePe, Paytm, BHIM. |
 
+| **Bank Account Freeze Kyu Hota Hai — Kaise Unfreeze Karwayein Documents Process** | [Open Tool](https://www.globalinfowiki.in/2026/08/bank-account-freeze-kyu-hota-hai-kaise.html) | Why bank accounts get frozen in India — incomplete KYC, PMLA, court order — and complete step-by-step process to unfreeze with required documents. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
