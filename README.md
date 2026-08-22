@@ -116,5 +116,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Net Banking Password Reset Kaise Kare — SBI HDFC ICICI PNB Axis All Banks Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/net-banking-password-reset-kaise-kare.html) | Step-by-step guide to reset forgotten net banking password for SBI, HDFC, ICICI, PNB, and Axis Bank online without visiting branch. |
 
+| **UPI Transaction Failed Paise Wapas Kaise Aate Hain — Refund Process & Timeline All Banks** | [Open Tool](https://www.globalinfowiki.in/2026/08/upi-transaction-failed-paise-wapas.html) | Complete guide on what to do when UPI payment fails but money is debited. Automatic refund timeline, manual complaint process for GPay, PhonePe, Paytm, BHIM. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
