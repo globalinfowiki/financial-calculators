@@ -84,5 +84,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Credit Card Reward Points to Cash Value Calculator — Convert HDFC, SBI, Axis & ICICI Points to Rupees** | [Open Tool](https://www.globalinfowiki.in/2026/08/credit-card-reward-points-to-cash-value.html) | Convert your credit card reward points from HDFC, SBI Card, Axis Bank, and ICICI into real Rupees cash value and find the best redemption option. |
 
+| **Cashback vs Travel Rewards Credit Card Calculator — Find the Best Card for Your Spending Habits** | [Open Tool](https://www.globalinfowiki.in/2026/08/cashback-vs-travel-rewards-credit-card.html) | Compare annual net savings between cashback credit cards and travel reward cards based on your monthly online shopping, grocery, and travel expenses. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
