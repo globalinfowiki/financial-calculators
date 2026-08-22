@@ -78,5 +78,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Income Tax Section 87A Rebate Calculator — Check Zero Tax Eligibility up to Rs. 7.75 Lakhs** | [Open Tool](https://www.globalinfowiki.in/2026/08/income-tax-section-87a-rebate.html) | Calculate Section 87A tax rebate eligibility and check how income up to Rs. 7.75 Lakhs becomes 100% tax-free. |
 
+| **Health Insurance Premium & Section 80D Tax Deduction Calculator 2025-26** | [Open Tool](https://www.globalinfowiki.in/2026/08/health-insurance-premium-section-80d.html) | Calculate family health insurance premium estimate and Section 80D tax deductions up to Rs. 1,00,000 for self and parents. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
