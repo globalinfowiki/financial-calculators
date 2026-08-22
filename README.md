@@ -142,5 +142,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **FIR Copy Kaise Nikale Online — State Police Portal se FIR Download India All States** | [Open Tool](https://www.globalinfowiki.in/2026/08/fir-copy-kaise-nikale-online-state.html) | How to download or get FIR copy online from state police portals in India — Delhi, UP, Maharashtra, Karnataka, Rajasthan — and how to file Zero FIR anywhere. |
 
+| **Cyber Crime Complaint Online Kaise Kare — cybercrime.gov.in Portal Guide India 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/cyber-crime-complaint-online-kaise-kare.html) | How to file cyber crime complaint online at cybercrime.gov.in for online fraud, UPI scam, social media harassment, ransomware, OTP theft in India with documents required. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
