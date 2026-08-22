@@ -100,5 +100,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Indian Passport Application Documents Required 2026 — Fresh & Renewal Checklist with PSK Rules** | [Open Tool](https://www.globalinfowiki.in/2026/08/indian-passport-application-documents.html) | Complete document checklist for Indian passport application (Fresh, Renewal, Tatkaal, Minor) with non-ECR proof rules and Passport Seva Kendra procedure. |
 
+| **Legal Name Change Process in India — Step-by-Step Gazette Notification & Affidavit Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/legal-name-change-process-in-india-step.html) | How to legally change your name in India after marriage, religion change, or personal choice. Step-by-step affidavit, newspaper publication, and Central Gazette notification process. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
