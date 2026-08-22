@@ -158,5 +158,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **AICTE Pragati Scholarship 2026 — Girl Students Technical College Complete Guide & Apply** | [Open Tool](https://www.globalinfowiki.in/2026/08/aicte-pragati-scholarship-2026-girl.html) | Complete guide on AICTE Pragati Scholarship for girl students in technical colleges (diploma/degree) with eligibility, Rs.50000 per year amount, documents, and NSP apply process. |
 
+| **Birth Certificate Apply Kaise Kare — Online Offline Process Documents India 2026** | [Open Tool](https://www.globalinfowiki.in/2026/08/birth-certificate-apply-kaise-kare.html) | Complete guide on how to apply for birth certificate online and offline in India for newborn and late registration (after 1 year) with municipality/gram panchayat process. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
