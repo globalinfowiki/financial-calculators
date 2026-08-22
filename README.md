@@ -170,5 +170,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **PM Matru Vandana Yojana PMMVY — Rs 5000 Pregnant Women Scheme Apply Documents & Status** | [Open Tool](https://www.globalinfowiki.in/2026/08/pm-matru-vandana-yojana-pmmvy-rs-5000.html) | Complete guide on Pradhan Mantri Matru Vandana Yojana (PMMVY) maternity benefit scheme for pregnant and lactating women — Rs.5000 in 3 installments, documents, and Anganwadi apply process. |
 
+| **RERA Complaint Kaise File Kare — Builder Against Complaint Process MahaRERA UP RERA Haryana** | [Open Tool](https://www.globalinfowiki.in/2026/08/rera-complaint-kaise-file-kare-builder.html) | How to file RERA complaint against builder for delayed possession, poor construction quality, extra charges on state RERA portals with documents, fees, and process in India. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
