@@ -3,703 +3,2157 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Online Financial & Investment Calculators (India) — Open Tools Directory</title>
-  <meta name="description" content="Free open-source financial calculators for Indian investors and taxpayers: SIP, PPF, SSY, HRA, Income Tax, Home Loans, Solar Subsidies and more. Powered by Global Info Wiki.">
-  <link rel="canonical" href="https://www.globalinfowiki.in/2026/08/free-online-financial-investment.html">
+  <title>Global Info Wiki — Financial Calculators & Citizen Services Directory</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #0f172a; color: #f8fafc; line-height: 1.6; padding: 20px; }
-    .container { max-width: 1100px; margin: 0 auto; }
-    header { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #1e1b4b, #312e81); border-radius: 20px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid #4338ca; }
-    h1 { font-size: 2.2rem; color: #fff; margin-bottom: 12px; }
-    p.subtitle { font-size: 1.1rem; color: #cbd5e1; max-width: 700px; margin: 0 auto 24px; }
-    .search-input { width: 100%; max-width: 550px; padding: 14px 24px; font-size: 16px; border-radius: 50px; border: 2px solid #818cf8; background: #1e293b; color: #fff; outline: none; transition: border-color 0.2s; }
-    .search-input:focus { border-color: #38bdf8; }
-    
-    .section-title { font-size: 1.5rem; color: #38bdf8; margin: 32px 0 16px; border-bottom: 2px solid #334155; padding-bottom: 8px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-bottom: 30px; }
-    .card { background: #1e293b; border: 1px solid #334155; border-radius: 14px; padding: 22px; transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; justify-content: space-between; text-decoration: none; color: inherit; }
-    .card:hover { transform: translateY(-4px); border-color: #818cf8; box-shadow: 0 10px 25px rgba(99,102,241,0.2); }
-    .badge { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; display: inline-block; width: fit-content; margin-bottom: 12px; }
-    .badge-invest { background: rgba(16, 185, 129, 0.2); color: #34d399; }
-    .badge-gov { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
-    .badge-tax { background: rgba(239, 68, 68, 0.2); color: #f87171; }
-    .badge-loan { background: rgba(99, 102, 241, 0.2); color: #a5b4fc; }
-    
-    .card h3 { font-size: 1.15rem; color: #fff; margin-bottom: 8px; }
-    .card p { font-size: 0.9rem; color: #94a3b8; margin-bottom: 16px; flex-grow: 1; }
-    .btn { background: #312e81; color: #c7d2fe; font-weight: 600; font-size: 0.9rem; padding: 10px; border-radius: 8px; text-align: center; transition: background 0.2s, color 0.2s; }
-    .card:hover .btn { background: #4f46e5; color: #fff; }
-    
-    footer { text-align: center; padding: 40px 20px; color: #64748b; font-size: 0.9rem; border-top: 1px solid #334155; margin-top: 40px; }
-    footer a { color: #818cf8; text-decoration: none; font-weight: 600; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 40px 20px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    h1 { font-size: 2.2rem; background: linear-gradient(135deg, #a78bfa, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px; }
+    p.sub { color: #94a3b8; font-size: 1.1rem; margin-bottom: 30px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; transition: transform 0.2s, border-color 0.2s; display: flex; flex-direction: column; justify-content: space-between; }
+    .card:hover { transform: translateY(-4px); border-color: #38bdf8; }
+    .card-tag { font-size: 0.75rem; font-weight: 700; color: #38bdf8; text-transform: uppercase; margin-bottom: 8px; }
+    .card-title { font-size: 1.05rem; font-weight: 600; line-height: 1.4; color: #f1f5f9; margin-bottom: 16px; }
+    .card-link { font-size: 0.9rem; font-weight: 700; color: #a78bfa; }
   </style>
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>🧮 Financial Calculators Directory</h1>
-      <p class="subtitle">Open-source & free financial calculators for Indian investors, salaried professionals, and businesses. Hosted by Global Info Wiki.</p>
-      <input type="text" id="search" class="search-input" placeholder="🔍 Search any calculator (SIP, Tax, KVP, HRA, Loan)..." onkeyup="filterTools()">
-    </header>
-
-    <!-- Category 1: Investments & Wealth -->
-    <h2 class="section-title">📈 Mutual Funds & Investments</h2>
+    <h1>🌐 Global Info Wiki — Official Tools & Services Directory</h1>
+    <p class="sub">Access 420+ free interactive financial calculators, tax tools, and government document checklists.</p>
     <div class="grid">
-      <a href="https://www.globalinfowiki.in/2026/08/step-up-sip-calculator-calculate-annual.html" class="card" data-kw="step up top up sip mutual fund annual return wealth">
-        <div>
-          <span class="badge badge-invest">Mutual Funds</span>
-          <h3>Step-Up SIP Calculator</h3>
-          <p>Calculate exponential returns by increasing your monthly mutual fund SIP annually.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/swp-calculator-india-estimate-mutual.html" class="card" data-kw="swp systematic withdrawal plan mutual fund pension">
-        <div>
-          <span class="badge badge-invest">Mutual Funds</span>
-          <h3>SWP (Withdrawal) Calculator</h3>
-          <p>Estimate monthly pension cashflows from mutual funds while keeping capital invested.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/mutual-fund-capital-gains-tax.html" class="card" data-kw="capital gains tax ltcg stcg equity 1.25 lakh">
-        <div>
-          <span class="badge badge-invest">Tax & Returns</span>
-          <h3>Mutual Fund LTCG / STCG Tax</h3>
-          <p>Calculate new budget capital gains tax liability on mutual fund redemptions.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/sip-vs-bank-rd-comparison-calculator.html" class="card" data-kw="sip vs rd recurring deposit compare">
-        <div>
-          <span class="badge badge-invest">Comparison</span>
-          <h3>SIP vs Bank RD Comparison</h3>
-          <p>Compare guaranteed bank RD returns vs high-growth equity SIP wealth creation.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/child-higher-education-planner.html" class="card" data-kw="child higher education college inflation sip">
-        <div>
-          <span class="badge badge-invest">Goal Planning</span>
-          <h3>Child Education SIP Planner</h3>
-          <p>Forecast college degree costs with 10% education inflation and required monthly SIP.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
+      
+        <a href="https://www.globalinfowiki.in/2026/08/home-loan-balance-transfer-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Home Loan Balance Transfer Calculator — Calculate Interest Savings on Loan Refinancing</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/pm-awas-yojana-pmay-subsidy-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">PM Awas Yojana (PMAY) Subsidy Calculator — Calculate Home Loan Interest Subsidy up to Rs. 2.67 Lakhs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/income-tax-section-87a-rebate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Income Tax Section 87A Rebate Calculator — Check Zero Tax Eligibility up to Rs. 7.75 Lakhs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/ppf-calculator-calculate-15-year-public.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">PPF Calculator — Calculate 15-Year Public Provident Fund Maturity, Interest & Tax-Free Corpus</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/term-insurance-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Term Insurance Calculator — Calculate Ideal Life Insurance Cover & Human Life Value</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/elss-tax-saving-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">ELSS Tax Saving Calculator — Calculate Section 80C Tax Savings & 3-Year Lock-in Returns</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/tds-on-salary-calculator-section-192.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">TDS on Salary Calculator (Section 192) — Calculate Monthly Tax Deduction from Salary</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/ctc-to-in-hand-salary-calculator-2025.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">CTC to In-Hand Salary Calculator 2025-26 — Calculate Monthly Take-Home Pay, EPF & Deductions</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/free-online-financial-investment.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Free Online Financial & Investment Calculators Hub — Complete Tools Directory</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/jesus-is-king.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Jesus is King</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/electricity-bill-slab-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Electricity Bill Slab Calculator — Calculate Monthly Power Bill by Units Consumed</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/mutual-fund-capital-gains-tax.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Mutual Fund Capital Gains Tax Calculator — Calculate LTCG & STCG Tax on Equity & Debt Funds</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/step-up-sip-calculator-calculate-annual.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Step-Up SIP Calculator — Calculate Annual Top-Up SIP Growth & Wealth Creation</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/atal-pension-yojana-apy-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Atal Pension Yojana (APY) Calculator — Calculate Monthly Contribution for Rs. 1,000 to Rs. 5,000 Pension</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/senior-citizen-savings-scheme-scss.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Senior Citizen Savings Scheme (SCSS) Calculator — Calculate 8.2% Quarterly Interest Income</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/recurring-deposit-rd-calculator-india.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Recurring Deposit (RD) Calculator India — Calculate Monthly Savings Maturity Value & Interest</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/swp-calculator-india-estimate-mutual.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">SWP Calculator India — Estimate Mutual Fund Monthly Pension & Remaining Wealth</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/post-office-monthly-income-scheme-pomis.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Post Office Monthly Income Scheme (POMIS) Calculator — Calculate Guaranteed Monthly Pension</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/home-loan-prepayment-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Home Loan Prepayment Calculator — Calculate Interest Savings & Loan Tenure Reduction</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/old-vs-new-tax-regime-calculator-2025.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Old vs New Tax Regime Calculator 2025-26 — Compare Income Tax & Find Which Regime is Better</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/hra-tax-exemption-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">HRA Tax Exemption Calculator — Calculate House Rent Allowance Exemption Under Section 10(13A)</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/sukanya-samriddhi-yojana-ssy-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Sukanya Samriddhi Yojana (SSY) Calculator — Calculate Maturity Value & Interest for Girl Child</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/epf-calculator-india-estimate-your-epf.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">EPF Calculator India — Estimate Your EPF Contribution & Retirement Maturity Corpus</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/gratuity-calculator-india-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Gratuity Calculator India — Calculate Gratuity Benefits Under Payment of Gratuity Act</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/gold-jewellery-price-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Gold Jewellery Price Calculator — Calculate Final Gold Rate with GST & Making Charges</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/bigha-to-square-feet-gaj-land-area.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Bigha to Square Feet & Gaj Land Area Calculator — Convert Bigha to Sq Ft by Indian States</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/solar-panel-roi-savings-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Solar Panel ROI & Savings Calculator — Estimate Payback Period & Yearly Electricity Savings</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/pm-surya-ghar-muft-bijli-yojana-solar.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">PM Surya Ghar Muft Bijli Yojana Solar Subsidy Calculator — Calculate Cost & Government Subsidy</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/national-pension-system-nps-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">National Pension System (NPS) Calculator — Estimate Your Retirement Corpus & Monthly Pension Annuity</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/ups-vs-nps-pension-comparison.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">UPS vs NPS Pension Comparison Calculator — Which Pension Scheme is Better for Government Employees?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/unified-pension-scheme-ups-pension.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Unified Pension Scheme (UPS) Pension Calculator — Calculate Your Assured Pension & Lumpsum Payout</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/construction-bid-calculator-project.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Construction Bid Calculator — Project Cost Markup Estimator</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/roof-slope-calculator-calculate-roof.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Roof Slope Calculator — Calculate Roof Angle, Pitch & Rise</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/board-foot-calculator-calculate-lumber.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Board Foot Calculator — Calculate Lumber Volume in Board Feet</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/fascia-soffit-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Fascia & Soffit Calculator — Estimate Material for Roof Edges</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/construction-roi-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Construction ROI Calculator — Estimate Capital Equipment Return</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/masonry-calculator-estimate-cmu-block.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Masonry Calculator — Estimate CMU Block, Mortar & Wall Materials</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/compost-calculator-estimate-yards-of.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Compost Calculator — Estimate Yards of Compost for Garden Beds</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/contractor-hourly-rate-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Contractor Hourly Rate Calculator — Calculate What to Charge Per Hour</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/aggregate-calculator-calculate-tons-of.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Aggregate Calculator — Calculate Tons of Crushed Stone & Gravel</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/rafter-calculator-estimate-rafter.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Rafter Calculator — Estimate Rafter Length, Rise & Run</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/labor-cost-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Labor Cost Calculator — Calculate Employee Hourly Burden Rate</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/landscape-rock-calculator-estimate-tons.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Landscape Rock Calculator — Estimate Tons of Decorative Stone</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/metal-roof-calculator-estimate-panels.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Metal Roof Calculator — Estimate Panels, Screws & Material Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/window-replacement-cost-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Window Replacement Cost Calculator — Estimate New Window Budget</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/job-estimate-calculator-construction.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Job Estimate Calculator — Construction Bid & Proposal Estimator</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/lumber-calculator-board-feet-linear.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Lumber Calculator — Board Feet & Linear Feet Estimator</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/irrigation-calculator-estimate-water.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Irrigation Calculator — Estimate Water & Sprinkler Coverage Needs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/roof-cost-calculator-estimate-roof.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Roof Cost Calculator — Estimate Roof Replacement Prices</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/baseboard-trim-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Baseboard & Trim Calculator — Estimate Linear Feet & Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/construction-cost-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Construction Cost Calculator — Estimate Building & Remodeling Expenses</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/mortar-calculator-estimate-mortar-mix.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Mortar Calculator — Estimate Mortar Mix for Brick, Block & Stone</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/plant-spacing-calculator-how-many.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Plant Spacing Calculator — How Many Plants Fit in Your Garden?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/roofing-material-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Roofing Material Calculator — Estimate Shingles, Underlayment & Nails</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/contractor-markup-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Contractor Markup Calculator — Calculate Pricing for Construction Work</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/brick-calculator-estimate-number-of.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Brick Calculator — Estimate Number of Bricks for Walls & Projects</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/garden-bed-calculator-design-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Garden Bed Calculator — Design & Estimate Soil for Raised Beds</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/shingle-calculator-estimate-bundles.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Shingle Calculator — Estimate Bundles & Squares for Roof Shingles</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/room-area-calculator-calculate-square.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Room Area Calculator — Calculate Square Footage of Any Room</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/contractor-profit-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Contractor Profit Calculator — Estimate Construction Job Profit Margin</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/rebar-calculator-estimate-rebar-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Rebar Calculator — Estimate Rebar for Slabs, Footings & Walls</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/siding-calculator-estimate-squares-cost.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Siding Calculator — Estimate Squares & Cost for Exterior Walls</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/footing-calculator-estimate-concrete.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Footing Calculator — Estimate Concrete for Foundation Footings</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/grass-seed-calculator-how-much-grass.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Grass Seed Calculator — How Much Grass Seed Do I Need?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/wallpaper-calculator-estimate-rolls-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Wallpaper Calculator — Estimate Rolls for Any Room Size</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/concrete-bag-calculator-how-many-bags.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Concrete Bag Calculator — How Many Bags of Concrete Do I Need?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/river-rock-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">River Rock Calculator — Estimate Landscape Rock Tons & Cubic Yards</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/insulation-calculator-estimate-batts.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Insulation Calculator — Estimate Batts, Rolls & R-Value Coverage</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/pea-gravel-calculator-calculate-tons.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Pea Gravel Calculator — Calculate Tons & Cubic Yards Needed</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/drywall-calculator-estimate-sheets-mud.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Drywall Calculator — Estimate Sheets, Mud & Cost for Any Room</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/garden-soil-calculator-estimate-cubic.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Garden Soil Calculator — Estimate Cubic Yards & Bags for Garden Beds</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/carpet-calculator-estimate-square-yards.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Carpet Calculator — Estimate Square Yards & Cost to Carpet a Room</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/paint-coverage-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Paint Coverage Calculator — Estimate Gallons by Surface Type</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/decking-calculator-estimate-boards.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Decking Calculator — Estimate Boards, Joists & Framing Materials</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/roof-area-calculator-estimate-true.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Roof Area Calculator — Estimate True Pitch Surface Area</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/excavation-calculator-calculate-soil.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Excavation Calculator — Calculate Soil Removal & Swell Factors</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/dirt-calculator-calculate-fill-dirt.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Dirt Calculator — Calculate Fill Dirt, Soil & Compost Volume</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/sand-calculator-calculate-yards-tons.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Sand Calculator — Calculate Yards, Tons & Bags of Sand</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/ev-cost-calculator-compare-gas-vs.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">EV Cost Calculator — Compare Gas vs Electric Car Total Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/concrete-cost-calculator-estimate-slabs.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Concrete Cost Calculator — Estimate Slabs & DIY Project Costs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/concrete-volume-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Concrete Volume Calculator — Calculate Yards, Feet & Bags</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/mpg-calculator-calculate-fuel-economy.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">MPG Calculator — Calculate Fuel Economy of Your Car</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/retaining-wall-calculator-blocks.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Retaining Wall Calculator — Blocks, Materials & Cost Estimator</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/fuel-cost-calculator-estimate-trip.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Fuel Cost Calculator — Estimate Trip & Annual Commute Expenses</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/topsoil-calculator-calculate-cubic.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Topsoil Calculator — Calculate Cubic Yards of Topsoil Needed</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/gas-cost-calculator-calculate-daily.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Gas Cost Calculator — Calculate Daily, Monthly & Annual Fuel Costs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/sod-calculator-calculate-square-footage.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Sod Calculator — Calculate Square Footage of Sod Needed</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/top-5-famous-jesus-statues-in-world.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top 5 Famous Jesus Statues in the World: History & Size</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/car-lease-calculator-calculate-monthly.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Car Lease Calculator — Calculate Monthly Lease Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/asphalt-calculator-calculate-tons-of.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Asphalt Calculator — Calculate Tons of Asphalt for Driveways</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/car-affordability-calculator-find-out.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Car Affordability Calculator — Find Out How Much Car You Can Afford</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/charlie-kirk-quotes-on-jesus-faith-and.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Charlie Kirk Quotes on Jesus: Faith and Modern Perspectives</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/car-payment-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Car Payment Calculator — Calculate Monthly Car Expenses</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/paver-calculator-calculate-number-of.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Paver Calculator — Calculate Number of Pavers Needed</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/auto-loan-calculator-estimate-monthly.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Auto Loan Calculator — Estimate Monthly Car Loan Payments</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/plato-quote-about-jesus-historical-fact.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Plato Quote About Jesus: Historical Fact vs Myth Explained</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/fence-post-calculator-how-many-fence.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Fence Post Calculator — How Many Fence Posts Do I Need?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/jesus-is-reason-for-season-origin-and.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Jesus Is the Reason for the Season: Origin and True Meaning</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/deck-board-calculator-how-many-deck.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Deck Board Calculator — How Many Deck Boards Do I Need?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/i-speak-jesus-give-me-jesus-guitar.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">I Speak Jesus & Give Me Jesus: Guitar Chords Guide for Worship</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/deck-cost-calculator-estimate-deck.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Deck Cost Calculator — Estimate Deck Building Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/i-have-decided-to-follow-jesus-lyrics.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">I Have Decided to Follow Jesus: Lyrics, Origin & Meaning</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/mulch-calculator-calculate-cubic-yards.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Mulch Calculator — Calculate Cubic Yards of Mulch Needed</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/what-friend-we-have-in-jesus-lyrics.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">What a Friend We Have in Jesus: Lyrics, History & Meaning</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/gravel-calculator-calculate-tons-cubic.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Gravel Calculator — Calculate Tons & Cubic Yards of Gravel Needed</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/do-catholics-believe-in-jesus-catholic.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Do Catholics Believe in Jesus? Catholic Beliefs Explained</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/fence-calculator-calculate-materials.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Fence Calculator — Calculate Materials, Posts & Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/bible-quotes-on-jesus-love-scriptures.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Bible Quotes on Jesus Love: Scriptures of Grace & Compassion</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/tile-calculator-calculate-number-of.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Tile Calculator — Calculate Number of Tiles & Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/bible-quotes-of-jesus-resurrection.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Bible Quotes of Jesus Resurrection: Scriptures on Hope & New Life</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/flooring-calculator-calculate-square.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Flooring Calculator — Calculate Square Footage & Installation Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/the-christian-jesus-prayer-meaning.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">The Christian Jesus Prayer: Meaning, Origin, and Daily Guide</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/paint-calculator-how-many-gallons-of.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Paint Calculator — How Many Gallons of Paint Do I Need?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/is-jesus-and-god-same-person-trinity.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Is Jesus and God the Same Person? The Trinity Explained</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/concrete-calculator-calculate-cubic.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Concrete Calculator — Calculate Cubic Yards, Bags & Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/roofing-cost-calculator-estimate-roof.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Roofing Cost Calculator — Estimate Roof Replacement Cost per Square</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/did-jesus-have-siblings-historical.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Did Jesus Have Siblings? Historical & Biblical Evidence Evaluated</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/roof-pitch-calculator-calculate-roof.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Roof Pitch Calculator — Calculate Roof Angle, Rise & Run Instantly</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/was-jesus-jewish-understanding-jewish.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Was Jesus Jewish? Understanding the Jewish Roots of Jesus Christ</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/field-service-profit-margin-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Field Service Profit Margin Calculator — Calculate Job Costing & Markups for Landscapers & Contractors</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/vector-database-cost-calculator-compare.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Vector Database Cost Calculator — Compare Pinecone, Qdrant, Milvus & Weaviate Pricing</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/invoice-factoring-cost-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Invoice Factoring Cost Calculator — Estimate Fees and APR for Invoice Discounting</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/compound-interest-calculator-india.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Compound Interest Calculator India — Calculate Compound Interest on Savings & Mutual Funds</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-live-chat-software-for-high-ticket.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Live Chat Software for High-Ticket E-commerce Brands</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-manage-memberships-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Manage Memberships for an Independent Gym</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-text-message-marketing-platforms.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Text Message Marketing Platforms for Local Restaurants</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-bookkeeping-software-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Bookkeeping Software for Independent House Cleaners</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-route-optimization-software-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Route Optimization Software for Local Florists</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-source-products-from-alibaba.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Source Products from Alibaba Safely in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-password-managers-for-remote.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Password Managers for Remote Accounting Teams</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-video-editing-software-for-real.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Video Editing Software for Real Estate Walkthroughs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-set-up-virtual-receptionist-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Set Up a Virtual Receptionist for a Chiropractic Clinic</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-online-course-hosting-platforms.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Online Course Hosting Platforms for Fitness Influencers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-free-keyword-research-tools-for_0548570331.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Free Keyword Research Tools for Teachers Pay Teachers Sellers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-manage-payroll-for-family-owned.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Manage Payroll for a Family-Owned Restaurant</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-cold-calling-dialers-for-real.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Cold Calling Dialers for Real Estate Wholesalers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-automate-social-media-posting.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Automate Social Media Posting for Real Estate Agents</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-help-desk-software-for-small-it.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Help Desk Software for Small IT Managed Service Providers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-dispatch-software-for-tow-truck.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Dispatch Software for Tow Truck Operators</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-cloud-storage-solutions-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Cloud Storage Solutions for Professional Videographers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/15-mind-blowing-facts-about-space-and.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">15 Mind-Blowing Facts About Space and Universe That Will Shock You</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/macro-calculator-for-gym-fitness.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Macro Calculator for Gym & Fitness — Calculate Protein, Carbs, and Fat</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/bmr-calculator-for-indian-diet-find.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">BMR Calculator for Indian Diet — Find Your Basal Metabolic Rate</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/calorie-deficit-calculator-india.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Calorie Deficit Calculator India — Calculate Daily Weight Loss Calories</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/best-video-conferencing-tools-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Video Conferencing Tools for Client-Facing Consultants in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/how-to-build-automated-seo-reports.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Build Automated SEO Reports Using Python and Google APIs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/best-ai-chatbot-builders-for-customer.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best AI Chatbot Builders for Customer Support Without Coding</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-time-tracking-software-for-remote.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Time Tracking Software for Remote Development Teams</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-recurring-revenue-models-for-b2b.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Recurring Revenue Models for B2B Consultants in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/top-ai-image-generation-tools-for-e.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top AI Image Generation Tools for E-commerce Product Photography</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-build-personal-finance-dashboard.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Build a Personal Finance Dashboard Using Google Sheets</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-crm-for-it-managed-service.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best CRM for IT Managed Service Providers (MSPs) in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/top-5-zapier-alternatives-for-no-code.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top 5 Zapier Alternatives for No-Code Workflow Automation in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/top-cybersecurity-tools-every-remote.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Cybersecurity Tools Every Remote Startup Should Use in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-ai-tools-for-generating-youtube.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best AI Tools for Generating YouTube Video Scripts in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-set-up-google-analytics-4-on.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Set Up Google Analytics 4 on a Blogger Blog (Step-by-Step)</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-proposal-software-for-b2b.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Proposal Software for B2B Marketing Agencies in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-outsource-data-entry-tasks.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Outsource Data Entry Tasks Without Exposing Customer Info</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/top-5-custom-domain-email-hosting.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top 5 Custom Domain Email Hosting Providers for Small Agencies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-safe-guard-your-homelab-server.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Safe-Guard Your Homelab Server from Ransomware Attacks</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-voip-service-providers-for-remote.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best VoIP Service Providers for Remote Customer Support Teams</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-set-up-automated-email-funnels.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Set Up Automated Email Funnels for High-Ticket B2B Consulting</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/truenas-core-vs-truenas-scale-best.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">TrueNAS Core vs TrueNAS Scale: Best Operating System for Homelabs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/top-self-hosted-password-managers-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Self-Hosted Password Managers for Remote B2B Agencies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/how-to-set-up-virtual-phone-system-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Set Up a Virtual Phone System for a Chiropractic Clinic</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/truenas-vs-synology-which-nas-is-best.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">TrueNAS vs Synology: Which NAS is Best for Small Design Studios?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/top-5-tax-write-offs-for-remote-graphic.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top 5 Tax Write-Offs for Remote Graphic Designers & Illustrators</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/airtable-vs-google-sheets-how-to-build.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Airtable vs Google Sheets: How to Build a Custom CRM for Real Estate Agents</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-ai-writing-assistants-for-b2b.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best AI Writing Assistants for B2B Technology Copywriters</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-contract-management-software-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Contract Management Software for Independent Freight Dispatchers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-outsource-pinterest-management.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Outsource Pinterest Management for Travel Blogs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-set-up-automated-cart-recovery.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Set Up Automated Cart Recovery for WooCommerce</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-digital-waiver-software-for-tour.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Digital Waiver Software for Tour Operators</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/ai-roi-calculator-2026-calculate-return.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">AI ROI Calculator 2026 — Calculate Return on Investment for AI Implementation</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/instagram-sponsorship-rate-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Instagram Sponsorship Rate Calculator India 2026 — How Much to Charge for Sponsored Posts</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/raksha-bandhan-2026-gift-budget.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Raksha Bandhan 2026 Gift Budget Calculator — How Much to Spend on Rakhi Gifts</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/llm-api-token-cost-calculator-2026.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">LLM API Token Cost Calculator 2026 — Compare OpenAI, Claude, Gemini Pricing Instantly</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/niche-website-valuation-calculator-what.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Niche Website Valuation Calculator — What Is Your Blog Worth?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/invoice-late-fee-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Invoice Late Fee Calculator — Calculate Interest on Overdue Invoices</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/website-traffic-value-calculator-what.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Website Traffic Value Calculator — What Is Your Organic Traffic Worth?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/ppf-calculator-india-project-your.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">PPF Calculator India — Project Your Public Provident Fund Returns</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/income-tax-calculator-india-2025-26.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Income Tax Calculator India 2025-26 — Estimate Your Tax Liability</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/compound-interest-calculator-grow-your.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Compound Interest Calculator — Grow Your Wealth Over Time</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/digital-agency-pricing-calculator-price.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Digital Agency Pricing Calculator — Price Projects Cleanly</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/cryptocurrency-portfolio-tracker.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Cryptocurrency Portfolio Tracker Calculator — Value & Gain/Loss</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/personal-finance-budget-planner-track.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Personal Finance Budget Planner — Track Monthly Income and Expenses</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/affiliate-marketing-earnings-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Affiliate Marketing Earnings Calculator — Estimate Commission Income</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/youtube-channel-revenue-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">YouTube Channel Revenue Calculator — Estimate Total Creator Earnings</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/e-commerce-conversion-rate-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">E-commerce Conversion Rate Calculator — Optimize Your Store</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/hourly-rate-to-annual-salary-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Hourly Rate to Annual Salary Calculator — Compare Pay Rates</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/salary-hike-calculator-india-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Salary Hike Calculator India — Calculate Your New Salary After Increment</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/startup-runway-calculator-how-long-will.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Startup Runway Calculator — How Long Will Your Funding Last?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/email-marketing-roi-calculator-measure.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Email Marketing ROI Calculator — Measure Your Campaign Returns</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/instagram-engagement-rate-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Instagram Engagement Rate Calculator — Analyze Your Profile</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/sip-mutual-fund-calculator-india.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">SIP Mutual Fund Calculator India — Estimate Monthly Fund Returns</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/roi-calculator-calculate-return-on.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">ROI Calculator — Calculate Return on Investment</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/emi-loan-calculator-india-find-your.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">EMI Loan Calculator India — Find Your Monthly Installments</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/profit-margin-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Profit Margin Calculator — Calculate Gross & Net Profit Instantly</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-loyalty-program-software-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Loyalty Program Software for Independent Coffee Shops</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/retirement-savings-calculator-project.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Retirement Savings Calculator — Project Your Nest Egg</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/crypto-mining-profit-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Crypto Mining Profit Calculator — Estimate Daily BTC/ETH Earnings</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/youtube-cpm-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">YouTube CPM Calculator — Estimate Earnings per 1,000 Views</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/mortgage-calculator-estimate-monthly.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Mortgage Calculator — Estimate Monthly Payments (INR)</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/travel-budget-planner-estimate-trip-cost.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Travel Budget Planner — Estimate Trip Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/gst-calculator-india-calculate-gst.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">GST Calculator India — Calculate GST Amount Instantly (2026)</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/stock-dividend-yield-calculator-compute.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Stock Dividend Yield Calculator — Compute Yield & Annual Income</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-set-up-automated-webinar-sales.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Set Up Automated Webinar Sales Funnels</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-client-onboarding-software-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Client Onboarding Software for Digital Marketing Agencies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-seo-tools-for-small-e-commerce.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top SEO Tools for Small E-commerce Brands</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-use-ai-for-generating-podcast.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Use AI for Generating Podcast Show Notes</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-expense-management-software-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Expense Management Software for Remote Graphic Design Teams</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-email-verification-tools-for-cold.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Email Verification Tools for Cold B2B Outreach</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-set-up-virtual-call-center-for-e.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Set Up a Virtual Call Center for E-commerce Stores</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-affiliate-marketing-networks-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Affiliate Marketing Networks for Personal Finance Bloggers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-booking-plugins-for-wordpress.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Booking Plugins for WordPress Salon Websites</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-free-crm-software-for-independent.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Free CRM Software for Independent Life Coaches</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-budget-inventory-scanners-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Budget Inventory Scanners for Small Retail Stores</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-manage-inventory-for-home-based.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Manage Inventory for a Home-Based Bakery</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-crm-for-solar-panel-installation.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best CRM for Solar Panel Installation Companies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-cold-email-outreach-tools-for-b2b.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Cold Email Outreach Tools for B2B Sales SDRs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-client-portal-software-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Client Portal Software for Independent Graphic Designers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-seo-strategies-for-local-yoga.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top SEO Strategies for Local Yoga Studios in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-outsource-podcast-editing.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Outsource Podcast Editing Without Losing Quality</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-task-management-tools-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Task Management Tools for Neurodivergent Entrepreneurs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-set-up-secure-vpn-for-remote.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Set Up a Secure VPN for Remote Video Editors</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-create-automated-welcome-email.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Create an Automated Welcome Email Series for Online Tutors</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-free-accounting-software-for-uber.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Free Accounting Software for Uber and Lyft Drivers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-social-media-management-tools-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Social Media Management Tools for Solo Travel Bloggers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-use-ai-for-generating-real.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Use AI for Generating Real Estate Listing Descriptions</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-virtual-try-on-software-for-online.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Virtual Try-On Software for Online Eyewear Stores</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-optimize-your-linkedin-profile.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Optimize Your LinkedIn Profile for Remote Data Entry Jobs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-free-keyword-research-tools-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Free Keyword Research Tools for Etsy Sellers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-affordable-email-marketing-tools.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Affordable Email Marketing Tools for Indie Game Developers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-budget-web-hosting-for-photography.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Budget Web Hosting for Photography Portfolios in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-employee-engagement-platforms-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Employee Engagement Platforms for Hybrid Teams</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-video-hosting-services-for-online.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Video Hosting Services for Online Educators</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-crm-software-for-nonprofits-in-2026.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best CRM Software for Nonprofits in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-self-hosted-cloud-storage-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Self-Hosted Cloud Storage for Privacy-Focused Teams</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-help-desk-software-for-small-it.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Help Desk Software for Small IT Departments</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-corporate-expense-cards-for-remote.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Corporate Expense Cards for Remote Teams</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-construction-estimating-software.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top Construction Estimating Software for Contractors</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-crm-for-mortgage-brokers-in-2026.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best CRM for Mortgage Brokers in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-video-marketing-platforms-for-b2b.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Video Marketing Platforms for B2B Companies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-insurance-agency-management.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Insurance Agency Management Software in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-payroll-automation-software-for-hr.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Payroll Automation Software for HR Managers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-online-course-creation-tools-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Online Course Creation Tools for Subject Matter Experts</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-medical-billing-software-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Medical Billing Software for Independent Physicians</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-hr-software-for-companies-with-10.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best HR Software for Companies with 10 to 50 Employees</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-social-media-scheduling-tools-for.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Social Media Scheduling Tools for Content Creators</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-seo-audit-tools-for-digital.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best SEO Audit Tools for Digital Marketing Agencies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-email-marketing-automation-for-e.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best Email Marketing Automation for E-commerce Stores</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-lms-platforms-for-corporate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best LMS Platforms for Corporate Training in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-crm-software-for-real-estate.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best CRM Software for Real Estate Agents in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-ehr-software-for-small-medical.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Best EHR Software for Small Medical Practices in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/notion-vs-obsidian-which-is-best-second.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Notion vs Obsidian: Which is the Best Second Brain Tool in 2026?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-automate-bookkeeping-for-small.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">How to Automate Bookkeeping for Small Startups Using AI Tools</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-7-ai-meeting-assistants-for-remote.html" target="_blank" class="card">
+          <div class="card-tag">🧮</div>
+          <div class="card-title">Top 7 AI Meeting Assistants for Remote Teams in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/vidya-lakshmi-education-loan-portal.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Vidya Lakshmi Education Loan Portal — Apply Online All Banks Documents & Interest Subsidy</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/fixed-deposit-fd-premature-withdrawal.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Fixed Deposit FD Premature Withdrawal Penalty Calculator — SBI HDFC ICICI All Banks</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/cheque-bounce-kya-hota-hai-legal-notice.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Cheque Bounce Kya Hota Hai — Legal Notice Process Penalty & Court Case Section 138 NI Act</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/bank-account-freeze-kyu-hota-hai-kaise.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Bank Account Freeze Kyu Hota Hai — Kaise Unfreeze Karwayein Documents Process</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/upi-transaction-failed-paise-wapas.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">UPI Transaction Failed Paise Wapas Kaise Aate Hain — Refund Process & Timeline All Banks</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/net-banking-password-reset-kaise-kare.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Net Banking Password Reset Kaise Kare — SBI HDFC ICICI PNB Axis All Banks Guide</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/atm-card-block-kaise-kare-sbi-hdfc-pnb.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">ATM Card Block Kaise Kare SBI HDFC PNB ICICI — Emergency Card Block All Methods</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/legal-heir-certificate-documents.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Legal Heir Certificate Documents Required India — Property & Bank Claim Process (Warisan Praman Patra)</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/lifetime-free-ltf-vs-paid-credit-card.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Lifetime Free (LTF) vs Paid Credit Card ROI Calculator — Is the Annual Fee Worth It?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/credit-card-minimum-due-vs-full-payment.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Credit Card Minimum Due vs Full Payment Calculator — Expose the 42% APR Debt Trap</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/cashback-vs-travel-rewards-credit-card.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Cashback vs Travel Rewards Credit Card Calculator — Find the Best Card for Your Spending Habits</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/credit-card-reward-points-to-cash-value.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Credit Card Reward Points to Cash Value Calculator — Convert HDFC, SBI, Axis & ICICI Points to Rupees</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/sip-vs-bank-rd-comparison-calculator.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">SIP vs Bank RD Comparison Calculator — Compare Mutual Fund SIP vs Recurring Deposit Returns</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/fixed-deposit-fd-calculator-india.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">Fixed Deposit (FD) Calculator India — Estimate FD Maturity Value & Interest Earned</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-integrate-open-banking-apis-into.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">How to Integrate Open Banking APIs Into Your Shopify Checkout</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/how-to-choose-best-business-credit-card.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">How to Choose the Best Business Credit Card for Amazon FBA Sellers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-choose-best-business-credit-card.html" target="_blank" class="card">
+          <div class="card-tag">💳</div>
+          <div class="card-title">How to Choose the Best Business Credit Card for Tech Startups</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/birth-certificate-apply-kaise-kare.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Birth Certificate Apply Kaise Kare — Online Offline Process Documents India 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/police-verification-certificate.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Police Verification Certificate Documents India — Character Certificate Kaise Banwayein</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/vehicle-scrap-policy-india-2024-old.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Vehicle Scrap Policy India 2024 — Old Vehicle Certificate of Deposit Benefits & Process</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/property-mutation-dakhil-kharij-process.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Property Mutation Dakhil Kharij Process India — Documents Required for Name Transfer After Registry</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/caste-certificate-sc-st-obc-ews.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Caste Certificate SC ST OBC EWS Documents Required — Complete Application Process India 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/income-certificate-aay-praman-patra.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Income Certificate (Aay Praman Patra) Documents Required — Online e-District Apply Process India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/domicile-certificate-documents-required.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Domicile Certificate Documents Required & Application Process — State-Wise Resident Certificate Guide</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/legal-name-change-process-in-india-step.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Legal Name Change Process in India — Step-by-Step Gazette Notification & Affidavit Guide</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/indian-passport-application-documents.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Indian Passport Application Documents Required 2026 — Fresh & Renewal Checklist with PSK Rules</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/marriage-certificate-documents-required.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">Marriage Certificate Documents Required & Registration Process in India — Complete Step-by-Step Guide</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/national-savings-certificate-nsc.html" target="_blank" class="card">
+          <div class="card-tag">🇮🇳</div>
+          <div class="card-title">National Savings Certificate (NSC) Calculator — Calculate Post Office 5-Year Compound Returns</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/parivahan-portal-sarathi-all-services.html" target="_blank" class="card">
+          <div class="card-tag">🚗</div>
+          <div class="card-title">Parivahan Portal Sarathi All Services Guide — DL RC Fancy Number NOC PUCC Online India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/vehicle-noc-interstate-transfer-kaise.html" target="_blank" class="card">
+          <div class="card-tag">🚗</div>
+          <div class="card-title">Vehicle NOC Interstate Transfer Kaise Kare — Form 28 RTO Process & Documents India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/online-challan-pay-kaise-kare-parivahan.html" target="_blank" class="card">
+          <div class="card-tag">🚗</div>
+          <div class="card-title">Online Challan Pay Kaise Kare — Parivahan eChallan Status Check & Payment All India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/rc-transfer-documents-after-car-sale.html" target="_blank" class="card">
+          <div class="card-tag">🚗</div>
+          <div class="card-title">RC Transfer Documents After Car Sale Purchase India — Vehicle Ownership Transfer RTO Process</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/driving-licence-dl-documents-required.html" target="_blank" class="card">
+          <div class="card-tag">🚗</div>
+          <div class="card-title">Driving Licence DL Documents Required India 2026 — Learner Licence to Permanent DL Complete Guide</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/countertop-calculator-estimate-square.html" target="_blank" class="card">
+          <div class="card-tag">🚗</div>
+          <div class="card-title">Countertop Calculator — Estimate Square Footage & Material Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/sales-tax-on-car-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🚗</div>
+          <div class="card-title">Sales Tax on Car Calculator — Estimate Vehicle Sales Tax by State</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/ev-charging-cost-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🚗</div>
+          <div class="card-title">EV Charging Cost Calculator — Estimate Electric Vehicle Charging Costs</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/car-depreciation-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">🚗</div>
+          <div class="card-title">Car Depreciation Calculator — Calculate Vehicle Value Over Time</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/power-of-attorney-poa-kaise-banwayein.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Power of Attorney POA Kaise Banwayein — Documents Types General Special India Guide</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/jan-aushadhi-store-kahan-hai-cheap.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Jan Aushadhi Store Kahan Hai — Cheap Generic Medicine Locator India Pradhan Mantri Bhartiya Janaushadhi Pariyojana</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/voter-id-card-correction-apply-online.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Voter ID Card Correction Apply Online — Name Date of Birth Address Change NVSP Portal India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/cyber-crime-complaint-online-kaise-kare.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Cyber Crime Complaint Online Kaise Kare — cybercrime.gov.in Portal Guide India 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/fir-copy-kaise-nikale-online-state.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">FIR Copy Kaise Nikale Online — State Police Portal se FIR Download India All States</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/consumer-forum-complaint-online-kaise.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Consumer Forum Complaint Online Kaise Kare — NCDRC SCDRC Process Fee & Documents India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/rti-application-kaise-file-karein-right.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">RTI Application Kaise File Karein — Right to Information Online Offline Complete Process India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/overtime-pay-calculator-india-calculate.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Overtime Pay Calculator India — Calculate Double Overtime Wages Under Factories Act</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/fire-pit-gravel-calculator-how-much.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Fire Pit Gravel Calculator — How Much Gravel for a Fire Pit Area</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/fertilizer-calculator-calculate.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Fertilizer Calculator — Calculate Fertilizer Amount by Lawn Size & NPK</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/how-tall-was-jesus-historical-clues-and.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">How Tall Was Jesus? Historical Clues and Artistic Portrayals</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-proposal-automation-tools-for-b2b.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Top Proposal Automation Tools for B2B Consulting Firms</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/15-surprising-facts-about-artificial.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">15 Surprising Facts About Artificial Intelligence (AI) You Didn't Know</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/how-to-get-your-first-10-freelance.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">How to Get Your First 10 Freelance Clients as a Software Engineer</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-automate-client-reporting-for.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">How to Automate Client Reporting for Digital Marketing Agencies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/fire-calculator-india-achieve-financial.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">FIRE Calculator India — Achieve Financial Independence and Retire Early</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/podcast-cpm-calculator-estimate-podcast.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Podcast CPM Calculator — Estimate Podcast Advertising Revenue</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/content-writer-rate-calculator-charge.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Content Writer Rate Calculator — Charge Per Word / Article</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-write-high-converting-product.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">How to Write High-Converting Product Descriptions for Shopify</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-ai-contract-review-tools-for-small.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Best AI Contract Review Tools for Small Law Firms</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-legal-document-automation-software.html" target="_blank" class="card">
+          <div class="card-tag">⚖️</div>
+          <div class="card-title">Best Legal Document Automation Software for Solo Attorneys in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/aicte-pragati-scholarship-2026-girl.html" target="_blank" class="card">
+          <div class="card-tag">🎓</div>
+          <div class="card-title">AICTE Pragati Scholarship 2026 — Girl Students Technical College Complete Guide & Apply</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/post-matric-scholarship-sc-st-apply.html" target="_blank" class="card">
+          <div class="card-tag">🎓</div>
+          <div class="card-title">Post Matric Scholarship SC ST Apply 2026 — State Portal Documents & Payment Status Check</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/pm-yashasvi-scholarship-2026-obc-ebc.html" target="_blank" class="card">
+          <div class="card-tag">🎓</div>
+          <div class="card-title">PM Yashasvi Scholarship 2026 — OBC EBC DNT Students Eligibility Documents & Apply Process</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/national-scholarship-portal-nsp-2026.html" target="_blank" class="card">
+          <div class="card-tag">🎓</div>
+          <div class="card-title">National Scholarship Portal NSP 2026 Apply Online — Documents Eligibility & Renewal Process</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/child-higher-education-planner.html" target="_blank" class="card">
+          <div class="card-tag">🎓</div>
+          <div class="card-title">Child Higher Education Planner — Calculate Future College Cost & Monthly SIP Needed</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/gutter-downspout-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">🎓</div>
+          <div class="card-title">Gutter & Downspout Calculator — Estimate Gutter Length & Parts</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/college-tuition-planner-estimate-total.html" target="_blank" class="card">
+          <div class="card-tag">🎓</div>
+          <div class="card-title">College Tuition Planner — Estimate Total Education Cost</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/pm-matru-vandana-yojana-pmmvy-rs-5000.html" target="_blank" class="card">
+          <div class="card-tag">🏥</div>
+          <div class="card-title">PM Matru Vandana Yojana PMMVY — Rs 5000 Pregnant Women Scheme Apply Documents & Status</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/esi-card-apply-online-esic-benefits.html" target="_blank" class="card">
+          <div class="card-tag">🏥</div>
+          <div class="card-title">ESI Card Apply Online — ESIC Benefits Registration Documents & Hospital List India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/pm-kisan-samman-nidhi-registration-ekyc.html" target="_blank" class="card">
+          <div class="card-tag">🏥</div>
+          <div class="card-title">PM Kisan Samman Nidhi Registration eKYC Process — Documents Check Status & Installment Date 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/ayushman-bharat-pmjay-card-apply-kaise.html" target="_blank" class="card">
+          <div class="card-tag">🏥</div>
+          <div class="card-title">Ayushman Bharat PMJAY Card Apply Kaise Kare — Eligibility Check Documents & Beneficiary List 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/base-health-insurance-vs-1-crore-super.html" target="_blank" class="card">
+          <div class="card-tag">🏥</div>
+          <div class="card-title">Base Health Insurance vs 1 Crore Super Top-Up Calculator — Save 60% on Health Cover Premiums</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/health-insurance-premium-section-80d.html" target="_blank" class="card">
+          <div class="card-tag">🏥</div>
+          <div class="card-title">Health Insurance Premium & Section 80D Tax Deduction Calculator 2025-26</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/kisan-vikas-patra-kvp-calculator.html" target="_blank" class="card">
+          <div class="card-tag">🏥</div>
+          <div class="card-title">Kisan Vikas Patra (KVP) Calculator — Calculate Post Office Money Doubling Maturity & Interest</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-ehr-software-for-behavioral-health.html" target="_blank" class="card">
+          <div class="card-tag">🏥</div>
+          <div class="card-title">Best EHR Software for Behavioral Health Practices</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-telemedicine-platforms-for.html" target="_blank" class="card">
+          <div class="card-tag">🏥</div>
+          <div class="card-title">Best Telemedicine Platforms for Healthcare Providers in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/rent-agreement-vs-lease-agreement.html" target="_blank" class="card">
+          <div class="card-tag">🏠</div>
+          <div class="card-title">Rent Agreement vs Lease Agreement Difference India — 11 Month vs Long Term Notarization Rules</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/stamp-duty-refund-kaise-milta-hai.html" target="_blank" class="card">
+          <div class="card-tag">🏠</div>
+          <div class="card-title">Stamp Duty Refund Kaise Milta Hai — Cancelled Property Deal Refund Process State-wise India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/rera-complaint-kaise-file-kare-builder.html" target="_blank" class="card">
+          <div class="card-tag">🏠</div>
+          <div class="card-title">RERA Complaint Kaise File Kare — Builder Against Complaint Process MahaRERA UP RERA Haryana</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/loan-against-property-lap-vs-personal.html" target="_blank" class="card">
+          <div class="card-tag">🏠</div>
+          <div class="card-title">Loan Against Property (LAP) vs Personal Loan Calculator — Compare EMI, Interest & Savings</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/stamp-duty-property-registration.html" target="_blank" class="card">
+          <div class="card-tag">🏠</div>
+          <div class="card-title">Stamp Duty & Property Registration Calculator — Calculate State-Wise Property Registration Charges</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/rental-yield-calculator-evaluate-buy-to.html" target="_blank" class="card">
+          <div class="card-tag">🏠</div>
+          <div class="card-title">Rental Yield Calculator — Evaluate Buy-to-Let Property Returns</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/real-estate-roi-calculator-evaluate.html" target="_blank" class="card">
+          <div class="card-tag">🏠</div>
+          <div class="card-title">Real Estate ROI Calculator — Evaluate Property Investment</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-property-management-apps-for.html" target="_blank" class="card">
+          <div class="card-tag">🏠</div>
+          <div class="card-title">Best Property Management Apps for Single-Family Home Landlords</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-property-management-software-for.html" target="_blank" class="card">
+          <div class="card-tag">🏠</div>
+          <div class="card-title">Best Property Management Software for Landlords in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/term-insurance-sip-vs-traditional-lic.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Term Insurance + SIP vs Traditional LIC Endowment Plan Calculator — Compare BTIR Strategy Returns</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/car-loan-emi-on-road-price-calculator.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Car Loan EMI & On-Road Price Calculator — Calculate Down Payment, Interest & Monthly EMI</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/overhead-calculator-calculate-business.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Overhead Calculator — Calculate Business Overhead Rate</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/beam-calculator-estimate-beam-size.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Beam Calculator — Estimate Beam Size, Weight & Load Capacity</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/stair-calculator-estimate-rise-run.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Stair Calculator — Estimate Rise, Run, Treads & Stringer Length</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/car-trade-in-calculator-estimate-net.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Car Trade-In Calculator — Estimate Net Value After Loan Payoff</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/youtube-shorts-ad-revenue-calculator.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">YouTube Shorts Ad Revenue Calculator — Estimate Earnings from Shorts Views</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/freelancer-hourly-rate-calculator-india.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Freelancer Hourly Rate Calculator India — Calculate Your True Billable Rate & Salary</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/11/saas-customer-acquisition-cost-cac.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">SaaS Customer Acquisition Cost (CAC) Calculator — Optimize Your Marketing Spend & LTV Ratio</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-field-service-management-apps-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Field Service Management Apps for Commercial Landscapers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-source-products-for-amazon-fba.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Source Products for an Amazon FBA Wholesale Business</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-time-tracking-tools-for-freelance.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Time Tracking Tools for Freelance Copywriters</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-construction-estimating-apps-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Construction Estimating Apps for Independent Contractors</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-automate-feedback-collection-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Automate Feedback Collection for SaaS Startups</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-subscription-billing-software-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Subscription Billing Software for Niche SaaS Products</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-build-custom-crm-using-airtable.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Build a Custom CRM using Airtable for Freelancers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/top-wordpress-security-plugins-to.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top WordPress Security Plugins to Protect Your Business Website</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/best-shopify-apps-for-increasing.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Shopify Apps for Increasing Average Order Value in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/how-to-start-niche-newsletter-business.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Start a Niche Newsletter Business That Earns $5,000 per Month</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/top-contract-management-tools-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Contract Management Tools for Freelance Web Developers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/10/best-landing-page-builders-for-saas.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Landing Page Builders for SaaS Startups in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-use-linkedin-automation-safely.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Use LinkedIn Automation Safely for B2B Lead Generation</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-accounting-software-for-shopify.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Accounting Software for Shopify Store Owners in India</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-start-micro-saas-business-as.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Start a Micro-SaaS Business as a Solo Software Engineer</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-e-invoice-software-for-freelancers.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best E-Invoice Software for Freelancers in India in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/how-to-create-lead-magnet-that.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Create a Lead Magnet That Generates 1000+ Email Subscribers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-freelance-project-management-tools.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Freelance Project Management Tools for Software Development Teams</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/an-airtable-crm-template-for-freelance.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">An Airtable CRM Template for Freelance Photographers & Videographers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/best-ai-prompts-for-professional.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best AI Prompts for Professional Freelance Copywriters in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/09/top-7-tax-efficient-investment.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top 7 Tax-Efficient Investment Strategies for Digital Nomads</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/best-free-lead-routing-workflows-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Free Lead Routing Workflows for Independent Real Estate Brokers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/how-to-connect-shopify-to-quickbooks.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Connect Shopify to QuickBooks for Automated Invoicing</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/stripe-vs-paypal-vs-wise-best-payment.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Stripe vs PayPal vs Wise: Best Payment Gateways for Shopify Dropshipping</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/how-to-setup-llc-for-freelance-web.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Setup an LLC for a Freelance Web Design Agency</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-inventory-apps-for-mobile-food.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Inventory Apps for Mobile Food Trucks</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-scheduling-apps-for-mobile-notaries.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Scheduling Apps for Mobile Notaries</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/saas-churn-rate-calculator-2026.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">SaaS Churn Rate Calculator 2026 — Calculate Monthly & Annual Churn + MRR Impact</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/equipment-leasing-vs-buying-calculator.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Equipment Leasing vs Buying Calculator India 2026 — Which is Better for Your Business?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/dscr-calculator-india-2026-debt-service.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">DSCR Calculator India 2026 — Debt Service Coverage Ratio for Commercial Real Estate & Business Loans</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/08/section-44ada-calculator-india-2026.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Section 44ADA Calculator India 2026 — Presumptive Tax for Freelancers & Professionals</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/social-media-ad-budget-calculator-plan.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Social Media Ad Budget Calculator — Plan Your Monthly Ad Spend</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/mobile-app-revenue-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Mobile App Revenue Calculator — Estimate App Store Earnings</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/customer-lifetime-value-calculator.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Customer Lifetime Value Calculator — Maximize LTV for Your Business</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/dropshipping-product-research-tool.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Dropshipping Product Research Tool — Estimate Market Potential</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/saas-mrr-calculator-track-monthly.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">SaaS MRR Calculator — Track Monthly Recurring Revenue</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/freelance-project-rate-calculator-price.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Freelance Project Rate Calculator — Price Any Project Accurately</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/adsense-earnings-estimator-how-much-can.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">AdSense Earnings Estimator — How Much Can Your Blog Earn?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/shopify-store-profit-calculator.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Shopify Store Profit Calculator — Calculate E-commerce Net Profit</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/business-break-even-calculator-find.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Business Break-Even Calculator — Find Your Break-Even Point</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/freelance-day-rate-calculator-what.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Freelance Day Rate Calculator — What Should You Charge Per Day?</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/dropshipping-profit-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Dropshipping Profit Calculator — Estimate Margin after Ads</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/tiktok-ad-cost-calculator-estimate-cpm.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">TikTok Ad Cost Calculator — Estimate CPM & CPC for TikTok Campaigns</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/linkedin-lead-cost-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">LinkedIn Lead Cost Calculator — Estimate Cost‑Per‑Lead (CPL)</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/google-ads-cpc-estimator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Google Ads CPC Estimator — Estimate Cost‑Per‑Click for Keywords</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/facebook-ads-budget-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Facebook Ads Budget Calculator — Estimate Reach & CPA</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/amazon-fba-profit-calculator-estimate.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Amazon FBA Profit Calculator — Estimate Net Profit per Sale</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-mileage-tracking-apps-for-delivery.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Mileage Tracking Apps for Delivery Drivers in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-applicant-tracking-systems-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Applicant Tracking Systems for Small Staffing Agencies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-automate-invoice-chasing-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Automate Invoice Chasing for Freelance Web Designers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-optimize-your-google-business.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Optimize Your Google Business Profile for HVAC Contractors</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-e-signature-software-for-freelance.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top E-Signature Software for Freelance Wedding Photographers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/how-to-automate-appointment-reminders.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">How to Automate Appointment Reminders for Dental Clinics</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-low-code-app-builders-for-non.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Low-Code App Builders for Non-Technical Founders</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-customer-support-chatbots-for-small.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Customer Support Chatbots for Small Shopify Boutiques</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-lead-generation-strategies-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Lead Generation Strategies for Commercial Cleaning Companies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-scheduling-apps-for-mobile-pet.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Scheduling Apps for Mobile Pet Grooming Businesses</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-plagiarism-checkers-for-academic.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Plagiarism Checkers for Academic Freelance Writers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-dropshipping-suppliers-for-eco.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Dropshipping Suppliers for Eco-Friendly Baby Products</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-subscription-management-software.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Subscription Management Software for B2B SaaS</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-automated-payroll-services-for-uk.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Automated Payroll Services for UK Businesses</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-billing-software-for-freelance-web.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Billing Software for Freelance Web Developers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-professional-headshot-generators-ai.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Professional Headshot Generators (AI vs. Studio)</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-e-commerce-shipping-platforms-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top E-commerce Shipping Platforms for Shopify Merchants</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-virtual-office-address-services.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Virtual Office Address Services for Startups</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-erp-software-for-small.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best ERP Software for Small Manufacturing Businesses</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-fleet-management-software-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Fleet Management Software for Small Trucking Businesses</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-customer-onboarding-automation.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Customer Onboarding Automation Tools for SaaS Companies</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-portfolio-management-tools-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Portfolio Management Tools for Registered Investment Advisors</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-landing-page-builders-for-lead.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Landing Page Builders for Lead Generation in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-applicant-tracking-systems-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Applicant Tracking Systems for Startups in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-endpoint-security-software-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Endpoint Security Software for Small Businesses in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-inventory-management-software-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Inventory Management Software for Shopify Stores</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-accounting-software-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Accounting Software for Independent Financial Advisors</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-crm-software-for-b2b-saas-startups.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best CRM Software for B2B SaaS Startups in 2026</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/best-self-hosted-password-managers-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Best Self-Hosted Password Managers for Small Businesses</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
+        <a href="https://www.globalinfowiki.in/2026/07/top-automated-invoicing-software-for.html" target="_blank" class="card">
+          <div class="card-tag">💼</div>
+          <div class="card-title">Top Automated Invoicing Software for Freelancers</div>
+          <div class="card-link">Open Tool &rarr;</div>
+        </a>
     </div>
-
-    <!-- Category 2: Government & Post Office Schemes -->
-    <h2 class="section-title">🏛️ Government & Post Office Schemes</h2>
-    <div class="grid">
-      <a href="https://www.globalinfowiki.in/2026/08/sukanya-samriddhi-yojana-ssy-calculator.html" class="card" data-kw="sukanya samriddhi ssy daughter post office 8.2">
-        <div>
-          <span class="badge badge-gov">Post Office</span>
-          <h3>Sukanya Samriddhi (SSY)</h3>
-          <p>Calculate 8.2% tax-free maturity corpus for girl child savings accounts.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/kisan-vikas-patra-kvp-calculator.html" class="card" data-kw="kisan vikas patra kvp doubling 115 months 7.5">
-        <div>
-          <span class="badge badge-gov">Post Office</span>
-          <h3>Kisan Vikas Patra (KVP)</h3>
-          <p>Calculate 115-month money doubling maturity returns at 7.5% interest.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/ppf-calculator-calculate-15-year-public.html" class="card" data-kw="ppf public provident fund 15 year 7.1 tax free">
-        <div>
-          <span class="badge badge-gov">Govt Scheme</span>
-          <h3>PPF (Provident Fund) Calculator</h3>
-          <p>7.1% guaranteed tax-free compound interest and 15-year maturity wealth.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/senior-citizen-savings-scheme-scss.html" class="card" data-kw="senior citizen scss 8.2 quarterly interest pension">
-        <div>
-          <span class="badge badge-gov">Post Office</span>
-          <h3>Senior Citizen Savings (SCSS)</h3>
-          <p>8.2% quarterly pension payout estimator for retirees aged 60+.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/unified-pension-scheme-ups-pension.html" class="card" data-kw="unified pension scheme ups govt employee 50 percent">
-        <div>
-          <span class="badge badge-gov">Pension</span>
-          <h3>Unified Pension Scheme (UPS)</h3>
-          <p>Calculate assured 50% basic pay pension for central government staff.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    </div>
-
-    <!-- Category 3: Salary & Taxation -->
-    <h2 class="section-title">💼 Salary, Tax & Deductions</h2>
-    <div class="grid">
-      <a href="https://www.globalinfowiki.in/2026/08/ctc-to-in-hand-salary-calculator-2025.html" class="card" data-kw="ctc in hand take home salary epf tds pf basic">
-        <div>
-          <span class="badge badge-tax">Salary</span>
-          <h3>CTC to In-Hand Salary (2025-26)</h3>
-          <p>Calculate take-home salary after EPF (12%), Professional Tax & TDS deductions.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/tds-on-salary-calculator-section-192.html" class="card" data-kw="tds on salary section 192 tax deduction monthly">
-        <div>
-          <span class="badge badge-tax">Taxation</span>
-          <h3>TDS on Salary (Section 192)</h3>
-          <p>Calculate monthly employer salary TDS deductions with standard deduction.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/old-vs-new-tax-regime-calculator-2025.html" class="card" data-kw="old vs new tax regime 2025 2026 standard deduction 75000">
-        <div>
-          <span class="badge badge-tax">Taxation</span>
-          <h3>Old vs New Tax Regime 2025-26</h3>
-          <p>Compare tax slabs under both regimes with Rs. 75,000 standard deduction.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/hra-tax-exemption-calculator-calculate.html" class="card" data-kw="hra house rent allowance exemption 10 13a metro">
-        <div>
-          <span class="badge badge-tax">Taxation</span>
-          <h3>HRA Tax Exemption Calculator</h3>
-          <p>Section 10(13A) tax-free house rent allowance calculation rules.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/elss-tax-saving-calculator-calculate.html" class="card" data-kw="elss 80c tax saving 3 year lock in return">
-        <div>
-          <span class="badge badge-tax">Taxation</span>
-          <h3>ELSS Tax Saving Calculator</h3>
-          <p>Section 80C tax savings up to Rs. 46,800 with 3-year lock-in returns.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    </div>
-
-    <!-- Category 4: Loans & Real Estate -->
-    <h2 class="section-title">🏠 Loans, Real Estate & Utilities</h2>
-    <div class="grid">
-      <a href="https://www.globalinfowiki.in/2026/08/home-loan-prepayment-calculator.html" class="card" data-kw="home loan prepayment interest savings tenure reduction">
-        <div>
-          <span class="badge badge-loan">Loans</span>
-          <h3>Home Loan Prepayment</h3>
-          <p>Calculate interest savings and tenure reduction with loan prepayments.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/stamp-duty-property-registration.html" class="card" data-kw="stamp duty property registration state charges flat">
-        <div>
-          <span class="badge badge-loan">Real Estate</span>
-          <h3>Stamp Duty & Registration</h3>
-          <p>State-wise property registration fees and female buyer discounts.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/car-loan-emi-on-road-price-calculator.html" class="card" data-kw="car loan emi on road price down payment">
-        <div>
-          <span class="badge badge-loan">Loans</span>
-          <h3>Car Loan EMI & On-Road Price</h3>
-          <p>Monthly vehicle loan EMI and down payment budget breakdown.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/pm-surya-ghar-muft-bijli-yojana-solar.html" class="card" data-kw="pm surya ghar solar subsidy 78000 muft bijli">
-        <div>
-          <span class="badge badge-loan">Green Energy</span>
-          <h3>PM Surya Ghar Solar Subsidy</h3>
-          <p>Calculate up to Rs. 78,000 rooftop solar subsidy from the central government.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-      <a href="https://www.globalinfowiki.in/2026/08/free-online-financial-investment.html" class="card" data-kw="all calculators tools directory master hub">
-        <div>
-          <span class="badge badge-invest">Master Hub</span>
-          <h3>Explore All 40+ Calculators</h3>
-          <p>Access the complete directory of free online tools on Global Info Wiki.</p>
-        </div>
-        <div class="btn">Visit Official Portal &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/income-tax-section-87a-rebate.html" class="card" data-kw="income tax section 87a rebate calculator — check zero tax eligibility up to rs. 7.75 lakhs">
-        <div>
-          <span class="badge badge-invest">Taxation</span>
-          <h3>Income Tax Section 87A Rebate Calculator — Check Zero Tax Eligibility up to Rs. 7.75 Lakhs</h3>
-          <p>Calculate Section 87A tax rebate eligibility and check how income up to Rs. 7.75 Lakhs becomes 100% tax-free.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/health-insurance-premium-section-80d.html" class="card" data-kw="health insurance premium & section 80d tax deduction calculator 2025-26">
-        <div>
-          <span class="badge badge-invest">Insurance</span>
-          <h3>Health Insurance Premium & Section 80D Tax Deduction Calculator 2025-26</h3>
-          <p>Calculate family health insurance premium estimate and Section 80D tax deductions up to Rs. 1,00,000 for self and parents.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/pm-awas-yojana-pmay-subsidy-calculator.html" class="card" data-kw="pm awas yojana (pmay) subsidy calculator — calculate home loan interest subsidy up to rs. 2.67 lakhs">
-        <div>
-          <span class="badge badge-invest">Govt Scheme</span>
-          <h3>PM Awas Yojana (PMAY) Subsidy Calculator — Calculate Home Loan Interest Subsidy up to Rs. 2.67 Lakhs</h3>
-          <p>Calculate your Pradhan Mantri Awas Yojana (PMAY 2.0) credit-linked interest subsidy up to Rs. 2.67 Lakhs on home loans.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/credit-card-reward-points-to-cash-value.html" class="card" data-kw="credit card reward points to cash value calculator — convert hdfc, sbi, axis & icici points to rupees">
-        <div>
-          <span class="badge badge-invest">Credit Cards</span>
-          <h3>Credit Card Reward Points to Cash Value Calculator — Convert HDFC, SBI, Axis & ICICI Points to Rupees</h3>
-          <p>Convert your credit card reward points from HDFC, SBI Card, Axis Bank, and ICICI into real Rupees cash value and find the best redemption option.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/cashback-vs-travel-rewards-credit-card.html" class="card" data-kw="cashback vs travel rewards credit card calculator — find the best card for your spending habits">
-        <div>
-          <span class="badge badge-invest">Credit Cards</span>
-          <h3>Cashback vs Travel Rewards Credit Card Calculator — Find the Best Card for Your Spending Habits</h3>
-          <p>Compare annual net savings between cashback credit cards and travel reward cards based on your monthly online shopping, grocery, and travel expenses.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/credit-card-minimum-due-vs-full-payment.html" class="card" data-kw="credit card minimum due vs full payment calculator — expose the 42% apr debt trap">
-        <div>
-          <span class="badge badge-invest">Credit Cards</span>
-          <h3>Credit Card Minimum Due vs Full Payment Calculator — Expose the 42% APR Debt Trap</h3>
-          <p>See how paying only the minimum amount due on your credit card compounds at 42% annual interest and traps you in multi-year debt.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/lifetime-free-ltf-vs-paid-credit-card.html" class="card" data-kw="lifetime free (ltf) vs paid credit card roi calculator — is the annual fee worth it?">
-        <div>
-          <span class="badge badge-invest">Credit Cards</span>
-          <h3>Lifetime Free (LTF) vs Paid Credit Card ROI Calculator — Is the Annual Fee Worth It?</h3>
-          <p>Calculate whether paying an annual credit card fee (Rs. 1,000 to Rs. 10,000) provides enough bonus rewards, airport lounge access, and milestone benefits.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/term-insurance-sip-vs-traditional-lic.html" class="card" data-kw="term insurance + sip vs traditional lic endowment plan calculator — compare btir strategy returns">
-        <div>
-          <span class="badge badge-invest">Insurance</span>
-          <h3>Term Insurance + SIP vs Traditional LIC Endowment Plan Calculator — Compare BTIR Strategy Returns</h3>
-          <p>Compare the Buy Term Invest the Rest (BTIR) strategy vs traditional endowment insurance policies and see why Term + Mutual Fund SIP creates 5x more wealth.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/base-health-insurance-vs-1-crore-super.html" class="card" data-kw="base health insurance vs 1 crore super top-up calculator — save 60% on health cover premiums">
-        <div>
-          <span class="badge badge-invest">Insurance</span>
-          <h3>Base Health Insurance vs 1 Crore Super Top-Up Calculator — Save 60% on Health Cover Premiums</h3>
-          <p>Calculate how combining a Rs. 5 Lakh base health insurance policy with a Rs. 95 Lakh Super Top-Up plan saves up to 60% annual premium compared to a standalone 1 Crore cover.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/home-loan-balance-transfer-calculator.html" class="card" data-kw="home loan balance transfer calculator — calculate interest savings on loan refinancing">
-        <div>
-          <span class="badge badge-invest">Loans</span>
-          <h3>Home Loan Balance Transfer Calculator — Calculate Interest Savings on Loan Refinancing</h3>
-          <p>Calculate how much net money you save by switching your existing home loan to a lower interest rate bank after deducting processing and legal fees.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/marriage-certificate-documents-required.html" class="card" data-kw="marriage certificate documents required & registration process in india — complete step-by-step guide">
-        <div>
-          <span class="badge badge-invest">Govt Documents</span>
-          <h3>Marriage Certificate Documents Required & Registration Process in India — Complete Step-by-Step Guide</h3>
-          <p>Complete list of documents required for Marriage Certificate in India under Hindu Marriage Act and Special Marriage Act, with online portal links and Sub-Registrar office procedure.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/indian-passport-application-documents.html" class="card" data-kw="indian passport application documents required 2026 — fresh & renewal checklist with psk rules">
-        <div>
-          <span class="badge badge-invest">Govt Documents</span>
-          <h3>Indian Passport Application Documents Required 2026 — Fresh & Renewal Checklist with PSK Rules</h3>
-          <p>Complete document checklist for Indian passport application (Fresh, Renewal, Tatkaal, Minor) with non-ECR proof rules and Passport Seva Kendra procedure.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/legal-name-change-process-in-india-step.html" class="card" data-kw="legal name change process in india — step-by-step gazette notification & affidavit guide">
-        <div>
-          <span class="badge badge-invest">Legal Guides</span>
-          <h3>Legal Name Change Process in India — Step-by-Step Gazette Notification & Affidavit Guide</h3>
-          <p>How to legally change your name in India after marriage, religion change, or personal choice. Step-by-step affidavit, newspaper publication, and Central Gazette notification process.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/domicile-certificate-documents-required.html" class="card" data-kw="domicile certificate documents required & application process — state-wise resident certificate guide">
-        <div>
-          <span class="badge badge-invest">Govt Documents</span>
-          <h3>Domicile Certificate Documents Required & Application Process — State-Wise Resident Certificate Guide</h3>
-          <p>Complete documents required for Domicile / Permanent Residence Certificate (PRC) in India across states for government job quotas, college admissions, and scholarships.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/income-certificate-aay-praman-patra.html" class="card" data-kw="income certificate (aay praman patra) documents required — online e-district apply process india">
-        <div>
-          <span class="badge badge-invest">Govt Documents</span>
-          <h3>Income Certificate (Aay Praman Patra) Documents Required — Online e-District Apply Process India</h3>
-          <p>Complete documents required for Income Certificate (Aay Praman Patra) in India with state-wise e-District portal links and Tehsildar office procedure.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/caste-certificate-sc-st-obc-ews.html" class="card" data-kw="caste certificate sc st obc ews documents required — complete application process india 2026">
-        <div>
-          <span class="badge badge-invest">Govt Documents</span>
-          <h3>Caste Certificate SC ST OBC EWS Documents Required — Complete Application Process India 2026</h3>
-          <p>Step-by-step guide for obtaining SC/ST/OBC/EWS caste certificate in India with required documents, hereditary proofs, and Tehsildar SDM office process.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/legal-heir-certificate-documents.html" class="card" data-kw="legal heir certificate documents required india — property & bank claim process (warisan praman patra)">
-        <div>
-          <span class="badge badge-invest">Legal Guides</span>
-          <h3>Legal Heir Certificate Documents Required India — Property & Bank Claim Process (Warisan Praman Patra)</h3>
-          <p>Complete guide on how to obtain a Legal Heir Certificate in India for bank account transfer, property claim, and pension claim after death of a family member.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/property-mutation-dakhil-kharij-process.html" class="card" data-kw="property mutation dakhil kharij process india — documents required for name transfer after registry">
-        <div>
-          <span class="badge badge-invest">Govt Documents</span>
-          <h3>Property Mutation Dakhil Kharij Process India — Documents Required for Name Transfer After Registry</h3>
-          <p>How to do property mutation (Dakhil Kharij / Khata Transfer / Naam Chadhao) in Revenue Department and Municipal Corporation after property purchase or inheritance in India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/atm-card-block-kaise-kare-sbi-hdfc-pnb.html" class="card" data-kw="atm card block kaise kare sbi hdfc pnb icici — emergency card block all methods">
-        <div>
-          <span class="badge badge-invest">Banking</span>
-          <h3>ATM Card Block Kaise Kare SBI HDFC PNB ICICI — Emergency Card Block All Methods</h3>
-          <p>How to block ATM/Debit card immediately via missed call, net banking, mobile app, and toll-free helpline for SBI, HDFC, PNB, ICICI, and Axis Bank.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/net-banking-password-reset-kaise-kare.html" class="card" data-kw="net banking password reset kaise kare — sbi hdfc icici pnb axis all banks guide">
-        <div>
-          <span class="badge badge-invest">Banking</span>
-          <h3>Net Banking Password Reset Kaise Kare — SBI HDFC ICICI PNB Axis All Banks Guide</h3>
-          <p>Step-by-step guide to reset forgotten net banking password for SBI, HDFC, ICICI, PNB, and Axis Bank online without visiting branch.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/upi-transaction-failed-paise-wapas.html" class="card" data-kw="upi transaction failed paise wapas kaise aate hain — refund process & timeline all banks">
-        <div>
-          <span class="badge badge-invest">Banking</span>
-          <h3>UPI Transaction Failed Paise Wapas Kaise Aate Hain — Refund Process & Timeline All Banks</h3>
-          <p>Complete guide on what to do when UPI payment fails but money is debited. Automatic refund timeline, manual complaint process for GPay, PhonePe, Paytm, BHIM.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/bank-account-freeze-kyu-hota-hai-kaise.html" class="card" data-kw="bank account freeze kyu hota hai — kaise unfreeze karwayein documents process">
-        <div>
-          <span class="badge badge-invest">Banking</span>
-          <h3>Bank Account Freeze Kyu Hota Hai — Kaise Unfreeze Karwayein Documents Process</h3>
-          <p>Why bank accounts get frozen in India — incomplete KYC, PMLA, court order — and complete step-by-step process to unfreeze with required documents.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/cheque-bounce-kya-hota-hai-legal-notice.html" class="card" data-kw="cheque bounce kya hota hai — legal notice process penalty & court case section 138 ni act">
-        <div>
-          <span class="badge badge-invest">Banking</span>
-          <h3>Cheque Bounce Kya Hota Hai — Legal Notice Process Penalty & Court Case Section 138 NI Act</h3>
-          <p>Complete guide on cheque bounce under Section 138 of Negotiable Instruments Act — penalty, legal notice period, court case process, and defense options in India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/fixed-deposit-fd-premature-withdrawal.html" class="card" data-kw="fixed deposit fd premature withdrawal penalty calculator — sbi hdfc icici all banks">
-        <div>
-          <span class="badge badge-invest">Banking</span>
-          <h3>Fixed Deposit FD Premature Withdrawal Penalty Calculator — SBI HDFC ICICI All Banks</h3>
-          <p>Calculate Fixed Deposit premature withdrawal penalty, actual interest earned, and maturity amount for SBI, HDFC, ICICI, PNB with real-time interactive calculator.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/driving-licence-dl-documents-required.html" class="card" data-kw="driving licence dl documents required india 2026 — learner licence to permanent dl complete guide">
-        <div>
-          <span class="badge badge-invest">Vehicle & RTO</span>
-          <h3>Driving Licence DL Documents Required India 2026 — Learner Licence to Permanent DL Complete Guide</h3>
-          <p>Complete documents required for Learner Licence and Permanent Driving Licence in India with Parivahan portal online application process, fees, and test tips.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/rc-transfer-documents-after-car-sale.html" class="card" data-kw="rc transfer documents after car sale purchase india — vehicle ownership transfer rto process">
-        <div>
-          <span class="badge badge-invest">Vehicle & RTO</span>
-          <h3>RC Transfer Documents After Car Sale Purchase India — Vehicle Ownership Transfer RTO Process</h3>
-          <p>Complete documents and step-by-step process for transferring vehicle RC (Registration Certificate) ownership after buying or selling a used car/bike in India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/online-challan-pay-kaise-kare-parivahan.html" class="card" data-kw="online challan pay kaise kare — parivahan echallan status check & payment all india">
-        <div>
-          <span class="badge badge-invest">Vehicle & RTO</span>
-          <h3>Online Challan Pay Kaise Kare — Parivahan eChallan Status Check & Payment All India</h3>
-          <p>How to check and pay traffic challan online in India via echallan.parivahan.gov.in, virtual court, and state traffic police portals for all states.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/vehicle-noc-interstate-transfer-kaise.html" class="card" data-kw="vehicle noc interstate transfer kaise kare — form 28 rto process & documents india">
-        <div>
-          <span class="badge badge-invest">Vehicle & RTO</span>
-          <h3>Vehicle NOC Interstate Transfer Kaise Kare — Form 28 RTO Process & Documents India</h3>
-          <p>Step-by-step process to get NOC for vehicle interstate transfer in India with Form 28, required documents, RTO fees, and re-registration in new state.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/parivahan-portal-sarathi-all-services.html" class="card" data-kw="parivahan portal sarathi all services guide — dl rc fancy number noc pucc online india">
-        <div>
-          <span class="badge badge-invest">Vehicle & RTO</span>
-          <h3>Parivahan Portal Sarathi All Services Guide — DL RC Fancy Number NOC PUCC Online India</h3>
-          <p>Complete guide to all services available on parivahan.gov.in and sarathi.parivahan.gov.in for driving licence, RC, vehicle-related services online in India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/vehicle-scrap-policy-india-2024-old.html" class="card" data-kw="vehicle scrap policy india 2024 — old vehicle certificate of deposit benefits & process">
-        <div>
-          <span class="badge badge-invest">Vehicle & RTO</span>
-          <h3>Vehicle Scrap Policy India 2024 — Old Vehicle Certificate of Deposit Benefits & Process</h3>
-          <p>Complete guide on India vehicle scrap policy 2024 — which vehicles must be scrapped, Certificate of Deposit benefits (5% discount on new vehicle), registered scrapping centres.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/rti-application-kaise-file-karein-right.html" class="card" data-kw="rti application kaise file karein — right to information online offline complete process india">
-        <div>
-          <span class="badge badge-invest">Legal Help</span>
-          <h3>RTI Application Kaise File Karein — Right to Information Online Offline Complete Process India</h3>
-          <p>Complete step-by-step guide to file RTI application online via RTI Online Portal and offline with postal order, fees, first appeal process and tips for India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/consumer-forum-complaint-online-kaise.html" class="card" data-kw="consumer forum complaint online kaise kare — ncdrc scdrc process fee & documents india">
-        <div>
-          <span class="badge badge-invest">Legal Help</span>
-          <h3>Consumer Forum Complaint Online Kaise Kare — NCDRC SCDRC Process Fee & Documents India</h3>
-          <p>Step-by-step guide to file consumer complaint online at EDAAKHIL portal against product defect, service deficiency, unfair trade practices with fees and jurisdiction guide.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/fir-copy-kaise-nikale-online-state.html" class="card" data-kw="fir copy kaise nikale online — state police portal se fir download india all states">
-        <div>
-          <span class="badge badge-invest">Legal Help</span>
-          <h3>FIR Copy Kaise Nikale Online — State Police Portal se FIR Download India All States</h3>
-          <p>How to download or get FIR copy online from state police portals in India — Delhi, UP, Maharashtra, Karnataka, Rajasthan — and how to file Zero FIR anywhere.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/cyber-crime-complaint-online-kaise-kare.html" class="card" data-kw="cyber crime complaint online kaise kare — cybercrime.gov.in portal guide india 2026">
-        <div>
-          <span class="badge badge-invest">Legal Help</span>
-          <h3>Cyber Crime Complaint Online Kaise Kare — cybercrime.gov.in Portal Guide India 2026</h3>
-          <p>How to file cyber crime complaint online at cybercrime.gov.in for online fraud, UPI scam, social media harassment, ransomware, OTP theft in India with documents required.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/police-verification-certificate.html" class="card" data-kw="police verification certificate documents india — character certificate kaise banwayein">
-        <div>
-          <span class="badge badge-invest">Legal Help</span>
-          <h3>Police Verification Certificate Documents India — Character Certificate Kaise Banwayein</h3>
-          <p>Complete guide on Police Verification Certificate and Character Certificate process in India for passport, job, visa, tenant verification with state-wise online portals.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/voter-id-card-correction-apply-online.html" class="card" data-kw="voter id card correction apply online — name date of birth address change nvsp portal india">
-        <div>
-          <span class="badge badge-invest">Legal Help</span>
-          <h3>Voter ID Card Correction Apply Online — Name Date of Birth Address Change NVSP Portal India</h3>
-          <p>How to apply for Voter ID card correction (name, date of birth, address, photo), new voter registration, and status check on voters.eci.gov.in NVSP portal India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/national-scholarship-portal-nsp-2026.html" class="card" data-kw="national scholarship portal nsp 2026 apply online — documents eligibility & renewal process">
-        <div>
-          <span class="badge badge-invest">Education</span>
-          <h3>National Scholarship Portal NSP 2026 Apply Online — Documents Eligibility & Renewal Process</h3>
-          <p>Complete guide to apply for Central Government scholarships on NSP (scholarships.gov.in) for SC/ST/OBC/Minority/PWD students with documents and renewal process.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/pm-yashasvi-scholarship-2026-obc-ebc.html" class="card" data-kw="pm yashasvi scholarship 2026 — obc ebc dnt students eligibility documents & apply process">
-        <div>
-          <span class="badge badge-invest">Education</span>
-          <h3>PM Yashasvi Scholarship 2026 — OBC EBC DNT Students Eligibility Documents & Apply Process</h3>
-          <p>Complete guide on PM Young Achievers Scholarship Award Scheme for Vibrant India (YASHASVI) for OBC, EBC, DNT students with eligibility, exam, and NSP application process.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/vidya-lakshmi-education-loan-portal.html" class="card" data-kw="vidya lakshmi education loan portal — apply online all banks documents & interest subsidy">
-        <div>
-          <span class="badge badge-invest">Education</span>
-          <h3>Vidya Lakshmi Education Loan Portal — Apply Online All Banks Documents & Interest Subsidy</h3>
-          <p>How to apply for education loan from multiple banks on Vidya Lakshmi Portal (vidyalakshmi.co.in) with documents required, interest subsidy schemes, and repayment guide.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/post-matric-scholarship-sc-st-apply.html" class="card" data-kw="post matric scholarship sc st apply 2026 — state portal documents & payment status check">
-        <div>
-          <span class="badge badge-invest">Education</span>
-          <h3>Post Matric Scholarship SC ST Apply 2026 — State Portal Documents & Payment Status Check</h3>
-          <p>Complete guide to apply for Post Matric Scholarship for SC and ST students in India with state portal links, income limit, documents required, and bank payment status.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/aicte-pragati-scholarship-2026-girl.html" class="card" data-kw="aicte pragati scholarship 2026 — girl students technical college complete guide & apply">
-        <div>
-          <span class="badge badge-invest">Education</span>
-          <h3>AICTE Pragati Scholarship 2026 — Girl Students Technical College Complete Guide & Apply</h3>
-          <p>Complete guide on AICTE Pragati Scholarship for girl students in technical colleges (diploma/degree) with eligibility, Rs.50000 per year amount, documents, and NSP apply process.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/birth-certificate-apply-kaise-kare.html" class="card" data-kw="birth certificate apply kaise kare — online offline process documents india 2026">
-        <div>
-          <span class="badge badge-invest">Govt Documents</span>
-          <h3>Birth Certificate Apply Kaise Kare — Online Offline Process Documents India 2026</h3>
-          <p>Complete guide on how to apply for birth certificate online and offline in India for newborn and late registration (after 1 year) with municipality/gram panchayat process.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/ayushman-bharat-pmjay-card-apply-kaise.html" class="card" data-kw="ayushman bharat pmjay card apply kaise kare — eligibility check documents & beneficiary list 2026">
-        <div>
-          <span class="badge badge-invest">Health Schemes</span>
-          <h3>Ayushman Bharat PMJAY Card Apply Kaise Kare — Eligibility Check Documents & Beneficiary List 2026</h3>
-          <p>Complete guide to check eligibility, download Ayushman Bharat PMJAY Golden Card, and avail Rs.5 Lakh free health insurance at empanelled hospitals across India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/pm-kisan-samman-nidhi-registration-ekyc.html" class="card" data-kw="pm kisan samman nidhi registration ekyc process — documents check status & installment date 2026">
-        <div>
-          <span class="badge badge-invest">Health Schemes</span>
-          <h3>PM Kisan Samman Nidhi Registration eKYC Process — Documents Check Status & Installment Date 2026</h3>
-          <p>Complete guide for PM Kisan Samman Nidhi new registration, eKYC mandatory process, Rs.6000 annual installment dates, and status check on pmkisan.gov.in.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/esi-card-apply-online-esic-benefits.html" class="card" data-kw="esi card apply online — esic benefits registration documents & hospital list india">
-        <div>
-          <span class="badge badge-invest">Health Schemes</span>
-          <h3>ESI Card Apply Online — ESIC Benefits Registration Documents & Hospital List India</h3>
-          <p>Complete guide to ESIC (Employees State Insurance Corporation) card registration, benefits (medical, maternity, disability, death), and list of ESIC hospitals in India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/jan-aushadhi-store-kahan-hai-cheap.html" class="card" data-kw="jan aushadhi store kahan hai — cheap generic medicine locator india pradhan mantri bhartiya janaushadhi pariyojana">
-        <div>
-          <span class="badge badge-invest">Health Schemes</span>
-          <h3>Jan Aushadhi Store Kahan Hai — Cheap Generic Medicine Locator India Pradhan Mantri Bhartiya Janaushadhi Pariyojana</h3>
-          <p>How to find nearest Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP) Jan Aushadhi store for cheap generic medicines and list of 1800+ medicines available at 90% cheaper rates.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/pm-matru-vandana-yojana-pmmvy-rs-5000.html" class="card" data-kw="pm matru vandana yojana pmmvy — rs 5000 pregnant women scheme apply documents & status">
-        <div>
-          <span class="badge badge-invest">Health Schemes</span>
-          <h3>PM Matru Vandana Yojana PMMVY — Rs 5000 Pregnant Women Scheme Apply Documents & Status</h3>
-          <p>Complete guide on Pradhan Mantri Matru Vandana Yojana (PMMVY) maternity benefit scheme for pregnant and lactating women — Rs.5000 in 3 installments, documents, and Anganwadi apply process.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/rera-complaint-kaise-file-kare-builder.html" class="card" data-kw="rera complaint kaise file kare — builder against complaint process maharera up rera haryana">
-        <div>
-          <span class="badge badge-invest">Property & Real Estate</span>
-          <h3>RERA Complaint Kaise File Kare — Builder Against Complaint Process MahaRERA UP RERA Haryana</h3>
-          <p>How to file RERA complaint against builder for delayed possession, poor construction quality, extra charges on state RERA portals with documents, fees, and process in India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/power-of-attorney-poa-kaise-banwayein.html" class="card" data-kw="power of attorney poa kaise banwayein — documents types general special india guide">
-        <div>
-          <span class="badge badge-invest">Property & Real Estate</span>
-          <h3>Power of Attorney POA Kaise Banwayein — Documents Types General Special India Guide</h3>
-          <p>Complete guide on General Power of Attorney (GPA) and Special Power of Attorney (SPA) types, documents required, stamp duty, and registration process in India.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/stamp-duty-refund-kaise-milta-hai.html" class="card" data-kw="stamp duty refund kaise milta hai — cancelled property deal refund process state-wise india">
-        <div>
-          <span class="badge badge-invest">Property & Real Estate</span>
-          <h3>Stamp Duty Refund Kaise Milta Hai — Cancelled Property Deal Refund Process State-wise India</h3>
-          <p>How to claim stamp duty refund on cancelled property sale deed in India — eligibility, refund percentage, state-wise online application process and timeline.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    
-      <a href="https://www.globalinfowiki.in/2026/08/rent-agreement-vs-lease-agreement.html" class="card" data-kw="rent agreement vs lease agreement difference india — 11 month vs long term notarization rules">
-        <div>
-          <span class="badge badge-invest">Property & Real Estate</span>
-          <h3>Rent Agreement vs Lease Agreement Difference India — 11 Month vs Long Term Notarization Rules</h3>
-          <p>Key differences between 11-month rent agreement and long-term lease deed in India — stamp duty, registration compulsion, tenant rights, and landlord protection explained.</p>
-        </div>
-        <div class="btn">Launch Tool &rarr;</div>
-      </a>
-    </div>
-
-    <footer>
-      <p>&copy; 2026 <a href="https://www.globalinfowiki.in/">Global Info Wiki</a>. All tools are free and updated regularly under current Indian financial regulations.</p>
-    </footer>
   </div>
-
-  <script>
-    function filterTools() {
-      var query = document.getElementById('search').value.toLowerCase();
-      var cards = document.querySelectorAll('.card');
-      cards.forEach(function(c) {
-        var text = (c.getAttribute('data-kw') || '') + ' ' + c.innerText.toLowerCase();
-        if (text.indexOf(query) > -1) {
-          c.style.display = 'flex';
-        } else {
-          c.style.display = 'none';
-        }
-      });
-    }
-  </script>
 </body>
 </html>
