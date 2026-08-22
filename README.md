@@ -102,5 +102,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Legal Name Change Process in India — Step-by-Step Gazette Notification & Affidavit Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/legal-name-change-process-in-india-step.html) | How to legally change your name in India after marriage, religion change, or personal choice. Step-by-step affidavit, newspaper publication, and Central Gazette notification process. |
 
+| **Domicile Certificate Documents Required & Application Process — State-Wise Resident Certificate Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/domicile-certificate-documents-required.html) | Complete documents required for Domicile / Permanent Residence Certificate (PRC) in India across states for government job quotas, college admissions, and scholarships. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
