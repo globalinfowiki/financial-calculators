@@ -124,5 +124,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Fixed Deposit FD Premature Withdrawal Penalty Calculator — SBI HDFC ICICI All Banks** | [Open Tool](https://www.globalinfowiki.in/2026/08/fixed-deposit-fd-premature-withdrawal.html) | Calculate Fixed Deposit premature withdrawal penalty, actual interest earned, and maturity amount for SBI, HDFC, ICICI, PNB with real-time interactive calculator. |
 
+| **Driving Licence DL Documents Required India 2026 — Learner Licence to Permanent DL Complete Guide** | [Open Tool](https://www.globalinfowiki.in/2026/08/driving-licence-dl-documents-required.html) | Complete documents required for Learner Licence and Permanent Driving Licence in India with Parivahan portal online application process, fees, and test tips. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
