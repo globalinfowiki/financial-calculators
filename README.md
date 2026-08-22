@@ -168,5 +168,7 @@ A curated collection of open-source and free web calculators for Indian taxpayer
 
 | **Jan Aushadhi Store Kahan Hai — Cheap Generic Medicine Locator India Pradhan Mantri Bhartiya Janaushadhi Pariyojana** | [Open Tool](https://www.globalinfowiki.in/2026/08/jan-aushadhi-store-kahan-hai-cheap.html) | How to find nearest Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP) Jan Aushadhi store for cheap generic medicines and list of 1800+ medicines available at 90% cheaper rates. |
 
+| **PM Matru Vandana Yojana PMMVY — Rs 5000 Pregnant Women Scheme Apply Documents & Status** | [Open Tool](https://www.globalinfowiki.in/2026/08/pm-matru-vandana-yojana-pmmvy-rs-5000.html) | Complete guide on Pradhan Mantri Matru Vandana Yojana (PMMVY) maternity benefit scheme for pregnant and lactating women — Rs.5000 in 3 installments, documents, and Anganwadi apply process. |
+
 ### 🌐 Official Website
 For live interactive calculation dashboards, visit [Global Info Wiki](https://www.globalinfowiki.in/).
